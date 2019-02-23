@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+  </component>
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="906e986e-4d69-4100-8403-4baf9951241c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../Lesson 4.3/app/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson 4.3/app/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lesson 4.4/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson 4.4/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lesson 4.4/app/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson 4.4/app/.idea/caches/build_file_checksums.ser" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lesson 4.4/app/.idea/caches/gradle_models.ser" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson 4.4/app/.idea/caches/gradle_models.ser" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lesson 4.4/app/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson 4.4/app/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lesson 4.4/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson 4.4/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lesson 4.4/app/build/intermediates/build-info/debug/build-info.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lesson 4.4/app/build/intermediates/bundle_manifest/debug/processDebugManifest/bundle-manifest/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson 4.4/app/build/intermediates/bundle_manifest/debug/processDebugManifest/bundle-manifest/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lesson 4.4/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lesson 4.4/app/build/intermediates/incremental-verifier/debug/android/arch/core/R.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lesson 4.4/app/build/intermediates/incremental-verifier/debug/android/arch/lifecycle/R.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lesson 4.4/app/build/intermediates/incremental-verifier/debug/android/arch/lifecycle/livedata/R.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lesson 4.4/app/build/intermediates/incremental-verifier/debug/android/arch/lifecycle/livedata/core/R.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lesson 4.4/app/build/intermediates/incremental-verifier/debug/android/arch/lifecycle/viewmodel/R.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lesson 4.4/app/build/intermediates/incremental-verifier/debug/android/support/asynclayoutinflater/R$attr.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lesson 4.4/app/build/intermediates/incremental-verifier/debug/android/support/asynclayoutinflater/R$color.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lesson 4.4/app/build/intermediates/incremental-verifier/debug/android/support/asynclayoutinflater/R$dimen.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lesson 4.4/app/build/intermediates/incremental-verifier/debug/android/support/asynclayoutinflater/R$drawable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lesson 4.4/app/build/intermediates/incremental-verifier/debug/android/support/asynclayoutinflater/R$id.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lesson 4.4/app/build/intermediates/incremental-verifier/debug/android/support/asynclayoutinflater/R$integer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lesson 4.4/app/build/intermediates/incremental-verifier/debug/android/support/asynclayoutinflater/R$layout.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lesson 4.4/app/build/intermediates/incremental-verifier/debug/android/support/asynclayoutinflater/R$string.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lesson 4.4/app/build/intermediates/incremental-verifier/debug/android/support/asynclayoutinflater/R$style.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lesson 4.4/app/build/intermediates/incremental-verifier/debug/android/support/asynclayoutinflater/R$styleable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lesson 4.4/app/build/intermediates/incremental-verifier/debug/android/support/asynclayout

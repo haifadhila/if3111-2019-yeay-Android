@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">CatManager!</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="tab_label1">Focus</string>
+    <string name="tab_label2">My Tasks</string>
+    <string name="tab_label3">My Cats</string>
+    <string name="catmanager">C a t M a n a g e r !</string>
+</resources>

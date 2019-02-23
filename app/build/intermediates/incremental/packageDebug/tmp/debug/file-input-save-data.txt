@@ -1,0 +1,7 @@
+#Internal package file, do not edit.
+#Sat Feb 23 02:30:33 ICT 2019
+0.baseType=DIRECTORY
+0.base=D\:\\KULIAH-SEM6\\TUBES PBD\\Android\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\out
+0.path=classes.dex
+0.set=DEX
+count=1
