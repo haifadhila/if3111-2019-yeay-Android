@@ -20,3 +20,7 @@ module.exports.getAllTasks = function(callback, limit){
 module.exports.getTaskById = function(id, callback){
     Task.findById(id, callback);
 }
+
+module.exports.addTask = function(task, callback) {
+    Task.create(task, callback);
+}

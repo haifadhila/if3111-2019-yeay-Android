@@ -21,3 +21,6 @@ module.exports.getAllUsers = function(callback, limit){
 module.exports.getUserById = function(id, callback){
     User.findById(id, callback);
 }
+module.exports.addUser = function(user, callback) {
+    User.create(user, callback);
+}
