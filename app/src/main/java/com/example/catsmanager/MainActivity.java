@@ -1,13 +1,24 @@
 package com.example.catsmanager;
 
+import android.content.Intent;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
 import android.support.design.widget.TabLayout;
+import android.view.View;
+import android.widget.ImageButton;
+import android.widget.ImageView;
+
+import com.google.android.gms.auth.api.signin.GoogleSignIn;
+import com.google.android.gms.auth.api.signin.GoogleSignInAccount;
+import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.auth.FirebaseUser;
 
 
 public class MainActivity extends AppCompatActivity {
+
+    private FirebaseAuth mAuth;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -53,5 +64,25 @@ public class MainActivity extends AppCompatActivity {
 
             }
         });
+
+
+        ImageButton signOutButton = (ImageButton) findViewById(R.id.signOutButton);
+        signOutButton.setOnClickListener(new View.OnClickListener() {
+           @Override
+            public void onClick(View v) {
+               mAuth=FirebaseAuth.getInstance();
+               mAuth.signOut();
+               FirebaseUser user = mAuth.getCurrentUser();
+               updateUI(user);
+            }
+        });
+
+    }
+
+    private void updateUI(FirebaseUser currentUser) {
+        if (currentUser==null) {
+            Intent myIntent = new Intent(MainActivity.this, LoginActivity.class);
+            MainActivity.this.startActivity(myIntent);
+        }
     }
 }

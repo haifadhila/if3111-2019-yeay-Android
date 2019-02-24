@@ -1,0 +1,4 @@
+#Sat Feb 23 21:18:10 ICT 2019
+base.0=D\:\\Documents\\kuliah\\semester 6\\pbd\\if3111-2019-yeay-Android\\app\\build\\intermediates\\dex\\release\\mergeDexRelease\\out
+path.0=classes.dex
+renamed.0=classes.dex

@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "D:\\Documents\\kuliah\\semester 6\\pbd\\if3111-2019-yeay-Android\\app\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-v18\\values-v18.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Nadija Herdwina\\.gradle\\caches\\transforms-2\\files-2.1\\705216b9c53755684010d842e461375c\\res\\values-v18\\values-v18.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "48",
+                        "endOffsets": "99"
+                    }
+                }
+            ]
+        }
+    ]
+}

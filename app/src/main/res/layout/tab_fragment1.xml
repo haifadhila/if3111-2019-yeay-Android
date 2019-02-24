@@ -1,16 +1,48 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".TabFragment1">
+    android:background="?attr/colorPrimary"
+    tools:context=".TabFragment1"
+    android:orientation="vertical">
 
-    <!-- TODO: Update blank fragment layout -->
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:layout_marginTop="100dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/cat_clockk" />
+
     <TextView
+        android:id="@+id/textView"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment"
-        android:textColor="@color/textColor"
-        android:textStyle="normal|bold" />
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:text="@string/header_fragment1"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:layout_margin="@dimen/activity_horizontal_margin"
+        android:layout_marginVertical="@dimen/activity_vertical_margin"/>
 
-</FrameLayout>
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="30dp"
+        android:background="#ffffff"
+        android:textAlignment="center" />
+
+    <Button
+        android:id="@+id/startButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Start"
+        android:layout_gravity="center"
+        android:layout_margin="@dimen/activity_vertical_margin"/>
+
+</LinearLayout>

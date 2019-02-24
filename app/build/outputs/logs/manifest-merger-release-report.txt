@@ -1,0 +1,174 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\Documents\kuliah\semester 6\pbd\if3111-2019-yeay-Android\app\src\main\AndroidManifest.xml:2:1-21:12
+INJECTED from D:\Documents\kuliah\semester 6\pbd\if3111-2019-yeay-Android\app\src\main\AndroidManifest.xml:2:1-21:12
+INJECTED from D:\Documents\kuliah\semester 6\pbd\if3111-2019-yeay-Android\app\src\main\AndroidManifest.xml:2:1-21:12
+INJECTED from D:\Documents\kuliah\semester 6\pbd\if3111-2019-yeay-Android\app\src\main\AndroidManifest.xml:2:1-21:12
+MERGED from [com.android.support:design:28.0.0] C:\Users\Nadija Herdwina\.gradle\caches\transforms-2\files-2.1\44e941ec0f704a70ee09e21894336a01\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\Nadija Herdwina\.gradle\caches\transforms-2\files-2.1\705216b9c53755684010d842e461375c\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Nadija Herdwina\.gradle\caches\transforms-2\files-2.1\43b77b3c557f04e46649a72b5c7d3ad8\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:support-v4:28.0.0] C:\Users\Nadija Herdwina\.gradle\caches\transforms-2\files-2.1\96736ebee116d196d2dc8a9a483f3faa\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\Nadija Herdwina\.gradle\caches\transforms-2\files-2.1\a539e10ed1e3f6e5249061a950026e84\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\Nadija Herdwina\.gradle\caches\transforms-2\files-2.1\a775600453dabac582135c48637d1ea9\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\Nadija Herdwina\.gradle\caches\transforms-2\files-2.1\4b8c5428971a7f76fa06f9d81384815d\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\Nadija Herdwina\.gradle\caches\transforms-2\files-2.1\bd9ca6c64d5ff04f53db4846785147c0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\Nadija Herdwina\.gradle\caches\transforms-2\files-2.1\a52ae17b9fa327a813b6155bb98ebd39\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\Nadija Herdwina\.gradle\caches\transforms-2\files-2.1\aef8f54628c0e5b0bcca0d1d4f165709\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:28.0.0] C:\Users\Nadija Herdwina\.gradle\caches\transforms-2\files-2.1\35b4ab6978a035f0e6400c1460706b97\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:28.0.0] C:\Users\Nadija Herdwina\.gradle\caches\transforms-2\files-2.1\1929bd7701a4611d685f008b01808bda\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] C:\Users\Nadija Herdwina\.gradle\caches\transforms-2\files-2.1\afa2ea93e10eafc425d5e116b2c78bc7\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\Nadija Herdwina\.gradle\caches\transforms-2\files-2.1\3e41d29e710008d8e4fee63990a3aa56\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\Nadija Herdwina\.gradle\caches\transforms-2\files-2.1\9c18d1f666e374bc36fc9bc83a0a609b\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\Nadija Herdwina\.gradle\caches\transforms-2\files-2.1\b40405ab58e3acf63a539acbfca481eb\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\Nadija Herdwina\.gradle\caches\transforms-2\files-2.1\61c1982af3e52ef96e3805deaee4853c\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] C:\Users\Nadija Herdwina\.gradle\caches\transforms-2\files-2.1\68f8cd3073848c92591db3c19740b8ee\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\Nadija Herdwina\.gradle\caches\transforms-2\files-2.1\364eaa25485ac0708851ada64f894cf0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\Nadija Herdwina\.gradle\caches\transforms-2\files-2.1\8f7f9a676c01ad58cf00ebaa3b983af6\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Nadija Herdwina\.gradle\caches\transforms-2\files-2.1\8ab7e5a39c3fbb9f158e357959590663\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Nadija Herdwina\.gradle\caches\transforms-2\files-2.1\b75440445bf4e63eba9e11216cc355ad\AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\Nadija Herdwina\.gradle\caches\transforms-2\files-2.1\b3d080b9cdf1977612250b9187366358\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\Nadija Herdwina\.gradle\caches\transforms-2\files-2.1\bb57a6b07d42d826b2de25f1f9d2f77e\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\Nadija Herdwina\.gradle\caches\transforms-2\files-2.1\b0a7311db6b797fac0ace237fdcf2469\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\Nadija Herdwina\.gradle\caches\transforms-2\files-2.1\7a8baee578c345dc9984e5ca9e3037a3\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\Nadija Herdwina\.gradle\caches\transforms-2\files-2.1\0c6c77b0fbe086537d73674e92d981ed\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] C:\Users\Nadija Herdwina\.gradle\caches\transforms-2\files-2.1\100ed4e811097b50e5ab5b30422062b9\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\Nadija Herdwina\.gradle\caches\transforms-2\files-2.1\8150139953b7e14e902c51888f85831c\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\Nadija Herdwina\.gradle\caches\transforms-2\files-2.1\46c76bd3df63e6c8eeac722b758f4ca6\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\Nadija Herdwina\.gradle\caches\transforms-2\files-2.1\5af249034d26729f886c34e53496ec41\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\Nadija Herdwina\.gradle\caches\transforms-2\files-2.1\06ab6f13c333ebcfc6d96c3958041826\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\Nadija Herdwina\.gradle\caches\transforms-2\files-2.1\684498d7d064ccc0249812f15565cb3a\AndroidManifest.xml:17:1-22:12
+INJECTED from D:\Documents\kuliah\semester 6\pbd\if3111-2019-yeay-Android\app\src\main\AndroidManifest.xml:2:1-21:12
+INJECTED from D:\Documents\kuliah\semester 6\pbd\if3111-2019-yeay-Android\app\src\main\AndroidManifest.xml:2:1-21:12
+INJECTED from D:\Documents\kuliah\semester 6\pbd\if3111-2019-yeay-Android\app\src\main\AndroidManifest.xml:2:1-21:12
+	package
+		ADDED from D:\Documents\kuliah\semester 6\pbd\if3111-2019-yeay-Android\app\src\main\AndroidManifest.xml:3:5-38
+		INJECTED from D:\Documents\kuliah\semester 6\pbd\if3111-2019-yeay-Android\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Documents\kuliah\semester 6\pbd\if3111-2019-yeay-Android\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from D:\Documents\kuliah\semester 6\pbd\if3111-2019-yeay-Android\app\src\main\AndroidManifest.xml
+		ADDED from D:\Documents\kuliah\semester 6\pbd\if3111-2019-yeay-Android\app\src\main\AndroidManifest.xml:2:1-21:12
+		INJECTED from D:\Documents\kuliah\semester 6\pbd\if3111-2019-yeay-Android\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from D:\Documents\kuliah\semester 6\pbd\if3111-2019-yeay-Android\app\src\main\AndroidManifest.xml
+		ADDED from D:\Documents\kuliah\semester 6\pbd\if3111-2019-yeay-Android\app\src\main\AndroidManifest.xml:2:1-21:12
+		INJECTED from D:\Documents\kuliah\semester 6\pbd\if3111-2019-yeay-Android\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\Documents\kuliah\semester 6\pbd\if3111-2019-yeay-Android\app\src\main\AndroidManifest.xml:2:11-69
+application
+ADDED from D:\Documents\kuliah\semester 6\pbd\if3111-2019-yeay-Android\app\src\main\AndroidManifest.xml:5:5-19:19
+MERGED from [com.android.support:design:28.0.0] C:\Users\Nadija Herdwina\.gradle\caches\transforms-2\files-2.1\44e941ec0f704a70ee09e21894336a01\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design:28.0.0] C:\Users\Nadija Herdwina\.gradle\caches\transforms-2\files-2.1\44e941ec0f704a70ee09e21894336a01\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Nadija Herdwina\.gradle\caches\transforms-2\files-2.1\43b77b3c557f04e46649a72b5c7d3ad8\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Nadija Herdwina\.gradle\caches\transforms-2\files-2.1\43b77b3c557f04e46649a72b5c7d3ad8\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Nadija Herdwina\.gradle\caches\transforms-2\files-2.1\8ab7e5a39c3fbb9f158e357959590663\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Nadija Herdwina\.gradle\caches\transforms-2\files-2.1\8ab7e5a39c3fbb9f158e357959590663\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Nadija Herdwina\.gradle\caches\transforms-2\files-2.1\b75440445bf4e63eba9e11216cc355ad\AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Nadija Herdwina\.gradle\caches\transforms-2\files-2.1\b75440445bf4e63eba9e11216cc355ad\AndroidManifest.xml:22:5-23:19
+	android:appComponentFactory
+		ADDED from [com.android.support:support-compat:28.0.0] C:\Users\Nadija Herdwina\.gradle\caches\transforms-2\files-2.1\8ab7e5a39c3fbb9f158e357959590663\AndroidManifest.xml:22:18-91
+	android:supportsRtl
+		ADDED from D:\Documents\kuliah\semester 6\pbd\if3111-2019-yeay-Android\app\src\main\AndroidManifest.xml:10:9-35
+	android:label
+		ADDED from D:\Documents\kuliah\semester 6\pbd\if3111-2019-yeay-Android\app\src\main\AndroidManifest.xml:8:9-41
+	android:roundIcon
+		ADDED from D:\Documents\kuliah\semester 6\pbd\if3111-2019-yeay-Android\app\src\main\AndroidManifest.xml:9:9-54
+	android:icon
+		ADDED from D:\Documents\kuliah\semester 6\pbd\if3111-2019-yeay-Android\app\src\main\AndroidManifest.xml:7:9-43
+	android:allowBackup
+		ADDED from D:\Documents\kuliah\semester 6\pbd\if3111-2019-yeay-Android\app\src\main\AndroidManifest.xml:6:9-35
+	android:theme
+		ADDED from D:\Documents\kuliah\semester 6\pbd\if3111-2019-yeay-Android\app\src\main\AndroidManifest.xml:11:9-40
+activity#com.example.catsmanager.MainActivity
+ADDED from D:\Documents\kuliah\semester 6\pbd\if3111-2019-yeay-Android\app\src\main\AndroidManifest.xml:12:9-18:20
+	android:name
+		ADDED from D:\Documents\kuliah\semester 6\pbd\if3111-2019-yeay-Android\app\src\main\AndroidManifest.xml:12:19-47
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from D:\Documents\kuliah\semester 6\pbd\if3111-2019-yeay-Android\app\src\main\AndroidManifest.xml:13:13-17:29
+action#android.intent.action.MAIN
+ADDED from D:\Documents\kuliah\semester 6\pbd\if3111-2019-yeay-Android\app\src\main\AndroidManifest.xml:14:17-69
+	android:name
+		ADDED from D:\Documents\kuliah\semester 6\pbd\if3111-2019-yeay-Android\app\src\main\AndroidManifest.xml:14:25-66
+category#android.intent.category.LAUNCHER
+ADDED from D:\Documents\kuliah\semester 6\pbd\if3111-2019-yeay-Android\app\src\main\AndroidManifest.xml:16:17-77
+	android:name
+		ADDED from D:\Documents\kuliah\semester 6\pbd\if3111-2019-yeay-Android\app\src\main\AndroidManifest.xml:16:27-74
+uses-sdk
+INJECTED from D:\Documents\kuliah\semester 6\pbd\if3111-2019-yeay-Android\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\Documents\kuliah\semester 6\pbd\if3111-2019-yeay-Android\app\src\main\AndroidManifest.xml
+INJECTED from D:\Documents\kuliah\semester 6\pbd\if3111-2019-yeay-Android\app\src\main\AndroidManifest.xml
+MERGED from [com.android.support:design:28.0.0] C:\Users\Nadija Herdwina\.gradle\caches\transforms-2\files-2.1\44e941ec0f704a70ee09e21894336a01\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:28.0.0] C:\Users\Nadija Herdwina\.gradle\caches\transforms-2\files-2.1\44e941ec0f704a70ee09e21894336a01\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\Nadija Herdwina\.gradle\caches\transforms-2\files-2.1\705216b9c53755684010d842e461375c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\Nadija Herdwina\.gradle\caches\transforms-2\files-2.1\705216b9c53755684010d842e461375c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Nadija Herdwina\.gradle\caches\transforms-2\files-2.1\43b77b3c557f04e46649a72b5c7d3ad8\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Nadija Herdwina\.gradle\caches\transforms-2\files-2.1\43b77b3c557f04e46649a72b5c7d3ad8\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:support-v4:28.0.0] C:\Users\Nadija Herdwina\.gradle\caches\transforms-2\files-2.1\96736ebee116d196d2dc8a9a483f3faa\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:28.0.0] C:\Users\Nadija Herdwina\.gradle\caches\transforms-2\files-2.1\96736ebee116d196d2dc8a9a483f3faa\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\Nadija Herdwina\.gradle\caches\transforms-2\files-2.1\a539e10ed1e3f6e5249061a950026e84\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\Nadija Herdwina\.gradle\caches\transforms-2\files-2.1\a539e10ed1e3f6e5249061a950026e84\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\Nadija Herdwina\.gradle\caches\transforms-2\files-2.1\a775600453dabac582135c48637d1ea9\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\Nadija Herdwina\.gradle\caches\transforms-2\files-2.1\a775600453dabac582135c48637d1ea9\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\Nadija Herdwina\.gradle\caches\transforms-2\files-2.1\4b8c5428971a7f76fa06f9d81384815d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\Nadija Herdwina\.gradle\caches\transforms-2\files-2.1\4b8c5428971a7f76fa06f9d81384815d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\Nadija Herdwina\.gradle\caches\transforms-2\files-2.1\bd9ca6c64d5ff04f53db4846785147c0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\Nadija Herdwina\.gradle\caches\transforms-2\files-2.1\bd9ca6c64d5ff04f53db4846785147c0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\Nadija Herdwina\.gradle\caches\transforms-2\files-2.1\a52ae17b9fa327a813b6155bb98ebd39\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\Nadija Herdwina\.gradle\caches\transforms-2\files-2.1\a52ae17b9fa327a813b6155bb98ebd39\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\Nadija Herdwina\.gradle\caches\transforms-2\files-2.1\aef8f54628c0e5b0bcca0d1d4f165709\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\Nadija Herdwina\.gradle\caches\transforms-2\files-2.1\aef8f54628c0e5b0bcca0d1d4f165709\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:28.0.0] C:\Users\Nadija Herdwina\.gradle\caches\transforms-2\files-2.1\35b4ab6978a035f0e6400c1460706b97\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:28.0.0] C:\Users\Nadija Herdwina\.gradle\caches\transforms-2\files-2.1\35b4ab6978a035f0e6400c1460706b97\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0] C:\Users\Nadija Herdwina\.gradle\caches\transforms-2\files-2.1\1929bd7701a4611d685f008b01808bda\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0] C:\Users\Nadija Herdwina\.gradle\caches\transforms-2\files-2.1\1929bd7701a4611d685f008b01808bda\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] C:\Users\Nadija Herdwina\.gradle\caches\transforms-2\files-2.1\afa2ea93e10eafc425d5e116b2c78bc7\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] C:\Users\Nadija Herdwina\.gradle\caches\transforms-2\files-2.1\afa2ea93e10eafc425d5e116b2c78bc7\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\Nadija Herdwina\.gradle\caches\transforms-2\files-2.1\3e41d29e710008d8e4fee63990a3aa56\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\Nadija Herdwina\.gradle\caches\transforms-2\files-2.1\3e41d29e710008d8e4fee63990a3aa56\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\Nadija Herdwina\.gradle\caches\transforms-2\files-2.1\9c18d1f666e374bc36fc9bc83a0a609b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\Nadija Herdwina\.gradle\caches\transforms-2\files-2.1\9c18d1f666e374bc36fc9bc83a0a609b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\Nadija Herdwina\.gradle\caches\transforms-2\files-2.1\b40405ab58e3acf63a539acbfca481eb\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\Nadija Herdwina\.gradle\caches\transforms-2\files-2.1\b40405ab58e3acf63a539acbfca481eb\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\Nadija Herdwina\.gradle\caches\transforms-2\files-2.1\61c1982af3e52ef96e3805deaee4853c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\Nadija Herdwina\.gradle\caches\transforms-2\files-2.1\61c1982af3e52ef96e3805deaee4853c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] C:\Users\Nadija Herdwina\.gradle\caches\transforms-2\files-2.1\68f8cd3073848c92591db3c19740b8ee\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] C:\Users\Nadija Herdwina\.gradle\caches\transforms-2\files-2.1\68f8cd3073848c92591db3c19740b8ee\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\Nadija Herdwina\.gradle\caches\transforms-2\files-2.1\364eaa25485ac0708851ada64f894cf0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\Nadija Herdwina\.gradle\caches\transforms-2\files-2.1\364eaa25485ac0708851ada64f894cf0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\Nadija Herdwina\.gradle\caches\transforms-2\files-2.1\8f7f9a676c01ad58cf00ebaa3b983af6\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\Nadija Herdwina\.gradle\caches\transforms-2\files-2.1\8f7f9a676c01ad58cf00ebaa3b983af6\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Nadija Herdwina\.gradle\caches\transforms-2\files-2.1\8ab7e5a39c3fbb9f158e357959590663\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Nadija Herdwina\.gradle\caches\transforms-2\files-2.1\8ab7e5a39c3fbb9f158e357959590663\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Nadija Herdwina\.gradle\caches\transforms-2\files-2.1\b75440445bf4e63eba9e11216cc355ad\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Nadija Herdwina\.gradle\caches\transforms-2\files-2.1\b75440445bf4e63eba9e11216cc355ad\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\Nadija Herdwina\.gradle\caches\transforms-2\files-2.1\b3d080b9cdf1977612250b9187366358\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\Nadija Herdwina\.gradle\caches\transforms-2\files-2.1\b3d080b9cdf1977612250b9187366358\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\Nadija Herdwina\.gradle\caches\transforms-2\files-2.1\bb57a6b07d42d826b2de25f1f9d2f77e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\Nadija Herdwina\.gradle\caches\transforms-2\files-2.1\bb57a6b07d42d826b2de25f1f9d2f77e\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\Nadija Herdwina\.gradle\caches\transforms-2\files-2.1\b0a7311db6b797fac0ace237fdcf2469\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\Nadija Herdwina\.gradle\caches\transforms-2\files-2.1\b0a7311db6b797fac0ace237fdcf2469\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\Nadija Herdwina\.gradle\caches\transforms-2\files-2.1\7a8baee578c345dc9984e5ca9e3037a3\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\Nadija Herdwina\.gradle\caches\transforms-2\files-2.1\7a8baee578c345dc9984e5ca9e3037a3\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\Nadija Herdwina\.gradle\caches\transforms-2\files-2.1\0c6c77b0fbe086537d73674e92d981ed\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\Nadija Herdwina\.gradle\caches\transforms-2\files-2.1\0c6c77b0fbe086537d73674e92d981ed\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] C:\Users\Nadija Herdwina\.gradle\caches\transforms-2\files-2.1\100ed4e811097b50e5ab5b30422062b9\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] C:\Users\Nadija Herdwina\.gradle\caches\transforms-2\files-2.1\100ed4e811097b50e5ab5b30422062b9\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\Nadija Herdwina\.gradle\caches\transforms-2\files-2.1\8150139953b7e14e902c51888f85831c\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\Nadija Herdwina\.gradle\caches\transforms-2\files-2.1\8150139953b7e14e902c51888f85831c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\Nadija Herdwina\.gradle\caches\transforms-2\files-2.1\46c76bd3df63e6c8eeac722b758f4ca6\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\Nadija Herdwina\.gradle\caches\transforms-2\files-2.1\46c76bd3df63e6c8eeac722b758f4ca6\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\Nadija Herdwina\.gradle\caches\transforms-2\files-2.1\5af249034d26729f886c34e53496ec41\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\Nadija Herdwina\.gradle\caches\transforms-2\files-2.1\5af249034d26729f886c34e53496ec41\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\Nadija Herdwina\.gradle\caches\transforms-2\files-2.1\06ab6f13c333ebcfc6d96c3958041826\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\Nadija Herdwina\.gradle\caches\transforms-2\files-2.1\06ab6f13c333ebcfc6d96c3958041826\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\Nadija Herdwina\.gradle\caches\transforms-2\files-2.1\684498d7d064ccc0249812f15565cb3a\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\Nadija Herdwina\.gradle\caches\transforms-2\files-2.1\684498d7d064ccc0249812f15565cb3a\AndroidManifest.xml:20:5-44
+INJECTED from D:\Documents\kuliah\semester 6\pbd\if3111-2019-yeay-Android\app\src\main\AndroidManifest.xml
+INJECTED from D:\Documents\kuliah\semester 6\pbd\if3111-2019-yeay-Android\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from D:\Documents\kuliah\semester 6\pbd\if3111-2019-yeay-Android\app\src\main\AndroidManifest.xml
+		ADDED from D:\Documents\kuliah\semester 6\pbd\if3111-2019-yeay-Android\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Documents\kuliah\semester 6\pbd\if3111-2019-yeay-Android\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from D:\Documents\kuliah\semester 6\pbd\if3111-2019-yeay-Android\app\src\main\AndroidManifest.xml
+		ADDED from D:\Documents\kuliah\semester 6\pbd\if3111-2019-yeay-Android\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Documents\kuliah\semester 6\pbd\if3111-2019-yeay-Android\app\src\main\AndroidManifest.xml
