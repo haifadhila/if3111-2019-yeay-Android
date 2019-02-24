@@ -7,4 +7,57 @@
     <string name="tab_label2">My Tasks</string>
     <string name="tab_label3">My Cats</string>
     <string name="catmanager">C a t M a n a g e r !</string>
+
+    <string name="title_placeholder">Title</string>
+    <string name="cats_dates_placeholder">27/01/19</string>
+    <string name="cats_info_placeholder">1 hour</string>
+
+    <string-array name="cats_titles">
+        <item>Cute Little Persian</item>
+        <item>Flawless White Persian</item>
+        <item>The Wise Guy</item>
+        <item>Little Striped Guy</item>
+        <item>Cheerful Baby</item>
+        <item>Strong Tabby</item>
+        <item>Pretty Tabby</item>
+        <item>The Real Slim Tabby</item>
+        <item>Sparkle-Eyed</item>
+    </string-array>
+
+    <string-array name="cats_dates">
+        <item>27/09/18</item>
+        <item>06/11/18</item>
+        <item>15/12/18</item>
+        <item>01/01/19</item>
+        <item>13/01/19</item>
+        <item>29/01/19</item>
+        <item>05/02/19</item>
+        <item>11/02/19</item>
+        <item>24/02/19</item>
+    </string-array>
+
+    <string-array name="cats_info">
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>45 minutes</item>
+        <item>1 hour</item>
+        <item>1 hour</item>
+        <item>45 minutes</item>
+        <item>15 minutes</item>
+        <item>15 minutes</item>
+        <item>2 hours</item>
+    </string-array>
+
+    <array name="cats_images">
+        <item>@drawable/cat_persian_little</item>
+        <item>@drawable/cat_persian</item>
+        <item>@drawable/cat_bapakbapak</item>
+        <item>@drawable/cat_normal_medium</item>
+        <item>@drawable/cat_normal_small</item>
+        <item>@drawable/cat_orange</item>
+        <item>@drawable/cat_orange_medium</item>
+        <item>@drawable/cat_orange_small</item>
+        <item>@drawable/cat_orange_small2</item>
+    </array>
+
 </resources>
