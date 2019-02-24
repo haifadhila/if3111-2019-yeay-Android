@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\KULIAH-SEM6\\TUBES PBD\\Android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v21\\values-v21.xml",
+            "outputFile": "D:\\KULIAH-SEM6\\TUBES PBD\\if3111-2019-yeay-Android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v21\\values-v21.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Haifa\\.gradle\\caches\\transforms-1\\files-1.1\\design-28.0.0.aar\\8e8a55b804a79294e9287efce655a0ae\\res\\values-v21\\values-v21.xml",

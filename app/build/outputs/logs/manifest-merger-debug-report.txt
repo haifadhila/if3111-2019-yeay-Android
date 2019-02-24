@@ -1,13 +1,19 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\KULIAH-SEM6\TUBES PBD\Android\app\src\main\AndroidManifest.xml:2:1-21:12
-INJECTED from D:\KULIAH-SEM6\TUBES PBD\Android\app\src\main\AndroidManifest.xml:2:1-21:12
-INJECTED from D:\KULIAH-SEM6\TUBES PBD\Android\app\src\main\AndroidManifest.xml:2:1-21:12
-INJECTED from D:\KULIAH-SEM6\TUBES PBD\Android\app\src\main\AndroidManifest.xml:2:1-21:12
+ADDED from D:\KULIAH-SEM6\TUBES PBD\if3111-2019-yeay-Android\app\src\main\AndroidManifest.xml:2:1-26:12
+INJECTED from D:\KULIAH-SEM6\TUBES PBD\if3111-2019-yeay-Android\app\src\main\AndroidManifest.xml:2:1-26:12
+INJECTED from D:\KULIAH-SEM6\TUBES PBD\if3111-2019-yeay-Android\app\src\main\AndroidManifest.xml:2:1-26:12
+INJECTED from D:\KULIAH-SEM6\TUBES PBD\if3111-2019-yeay-Android\app\src\main\AndroidManifest.xml:2:1-26:12
 MERGED from [com.android.support:design:28.0.0] C:\Users\Haifa\.gradle\caches\transforms-1\files-1.1\design-28.0.0.aar\8e8a55b804a79294e9287efce655a0ae\AndroidManifest.xml:17:1-24:12
 MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\Haifa\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\8b5b7c960d91844a714a36663253601b\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Haifa\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\debe101c8b9c58dd589a9014a1aed0fc\AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.android.gms:play-services-location:16.0.0] C:\Users\Haifa\.gradle\caches\transforms-1\files-1.1\play-services-location-16.0.0.aar\7226dc9ad5339f5e1d20fc1fcf09057d\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\Haifa\.gradle\caches\transforms-1\files-1.1\play-services-base-16.0.1.aar\5b00da872a31ff58c919a27fc7c7d3a7\AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] C:\Users\Haifa\.gradle\caches\transforms-1\files-1.1\play-services-places-placereport-16.0.0.aar\2bab2da5d9dadcd9cb8f4e03e6d7660f\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\Haifa\.gradle\caches\transforms-1\files-1.1\play-services-tasks-16.0.1.aar\34fc98e351415f162ba7d9355cd8aa14\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\Haifa\.gradle\caches\transforms-1\files-1.1\play-services-basement-16.0.1.aar\528f185e17e9732da9672641d0ac4eb0\AndroidManifest.xml:17:1-28:12
 MERGED from [com.android.support:support-v4:28.0.0] C:\Users\Haifa\.gradle\caches\transforms-1\files-1.1\support-v4-28.0.0.aar\f1d6fea57cecf1bdde9fafd85a79b7f5\AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.bumptech.glide:glide:4.9.0] C:\Users\Haifa\.gradle\caches\transforms-1\files-1.1\glide-4.9.0.aar\29ab42fecfa08218690d09322a0fa4db\AndroidManifest.xml:2:1-12:12
 MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\Haifa\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0.aar\f2feca9f8806ec9b4eb0e1d2aae1aa69\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\Haifa\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0.aar\2540eab6e9002279d85514be23459046\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\Haifa\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-28.0.0.aar\8b32349e9f88894b68d807c948f0aa27\AndroidManifest.xml:17:1-22:12
@@ -28,6 +34,7 @@ MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Haifa\.gradle\c
 MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Haifa\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\ce26f5f4b84af1775215b7d53456ea83\AndroidManifest.xml:17:1-25:12
 MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\Haifa\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0.aar\ea29af5fe2a294b218ec6442d40205e2\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\Haifa\.gradle\caches\transforms-1\files-1.1\cardview-v7-28.0.0.aar\8598c52f292d272c56f3b166523c6007\AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] C:\Users\Haifa\.gradle\caches\transforms-1\files-1.1\gifdecoder-4.9.0.aar\63b3ce9df9ead1a5adac5c999c90126c\AndroidManifest.xml:2:1-11:12
 MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\Haifa\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\d93f77a09ff04493e0956d4cff473fef\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:documentfile:28.0.0] C:\Users\Haifa\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0.aar\5b8d0c2bfe1aedcdad1133060013b7b1\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\Haifa\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0.aar\7ec598647a77ae5c9b3370204a58211f\AndroidManifest.xml:17:1-22:12
@@ -37,73 +44,115 @@ MERGED from [com.android.support:interpolator:28.0.0] C:\Users\Haifa\.gradle\cac
 MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\Haifa\.gradle\caches\transforms-1\files-1.1\livedata-1.1.1.aar\dc7be0b33cf16ddf52796027f59ee5fb\AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\Haifa\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\f44640ca1ceaec9805ce4879b11189d4\AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.core:runtime:1.1.1] C:\Users\Haifa\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\ae4bec2226da82a09939e2ee8e3c20c6\AndroidManifest.xml:17:1-22:12
-INJECTED from D:\KULIAH-SEM6\TUBES PBD\Android\app\src\main\AndroidManifest.xml:2:1-21:12
-INJECTED from D:\KULIAH-SEM6\TUBES PBD\Android\app\src\main\AndroidManifest.xml:2:1-21:12
-INJECTED from D:\KULIAH-SEM6\TUBES PBD\Android\app\src\main\AndroidManifest.xml:2:1-21:12
+INJECTED from D:\KULIAH-SEM6\TUBES PBD\if3111-2019-yeay-Android\app\src\main\AndroidManifest.xml:2:1-26:12
+INJECTED from D:\KULIAH-SEM6\TUBES PBD\if3111-2019-yeay-Android\app\src\main\AndroidManifest.xml:2:1-26:12
+INJECTED from D:\KULIAH-SEM6\TUBES PBD\if3111-2019-yeay-Android\app\src\main\AndroidManifest.xml:2:1-26:12
 	package
-		ADDED from D:\KULIAH-SEM6\TUBES PBD\Android\app\src\main\AndroidManifest.xml:3:5-38
-		INJECTED from D:\KULIAH-SEM6\TUBES PBD\Android\app\src\main\AndroidManifest.xml
-		INJECTED from D:\KULIAH-SEM6\TUBES PBD\Android\app\src\main\AndroidManifest.xml
+		ADDED from D:\KULIAH-SEM6\TUBES PBD\if3111-2019-yeay-Android\app\src\main\AndroidManifest.xml:3:5-38
+		INJECTED from D:\KULIAH-SEM6\TUBES PBD\if3111-2019-yeay-Android\app\src\main\AndroidManifest.xml
+		INJECTED from D:\KULIAH-SEM6\TUBES PBD\if3111-2019-yeay-Android\app\src\main\AndroidManifest.xml
 	android:versionName
-		INJECTED from D:\KULIAH-SEM6\TUBES PBD\Android\app\src\main\AndroidManifest.xml
-		ADDED from D:\KULIAH-SEM6\TUBES PBD\Android\app\src\main\AndroidManifest.xml:2:1-21:12
-		INJECTED from D:\KULIAH-SEM6\TUBES PBD\Android\app\src\main\AndroidManifest.xml
+		INJECTED from D:\KULIAH-SEM6\TUBES PBD\if3111-2019-yeay-Android\app\src\main\AndroidManifest.xml
+		ADDED from D:\KULIAH-SEM6\TUBES PBD\if3111-2019-yeay-Android\app\src\main\AndroidManifest.xml:2:1-26:12
+		INJECTED from D:\KULIAH-SEM6\TUBES PBD\if3111-2019-yeay-Android\app\src\main\AndroidManifest.xml
 	android:versionCode
-		INJECTED from D:\KULIAH-SEM6\TUBES PBD\Android\app\src\main\AndroidManifest.xml
-		ADDED from D:\KULIAH-SEM6\TUBES PBD\Android\app\src\main\AndroidManifest.xml:2:1-21:12
-		INJECTED from D:\KULIAH-SEM6\TUBES PBD\Android\app\src\main\AndroidManifest.xml
+		INJECTED from D:\KULIAH-SEM6\TUBES PBD\if3111-2019-yeay-Android\app\src\main\AndroidManifest.xml
+		ADDED from D:\KULIAH-SEM6\TUBES PBD\if3111-2019-yeay-Android\app\src\main\AndroidManifest.xml:2:1-26:12
+		INJECTED from D:\KULIAH-SEM6\TUBES PBD\if3111-2019-yeay-Android\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from D:\KULIAH-SEM6\TUBES PBD\Android\app\src\main\AndroidManifest.xml:2:11-69
+		ADDED from D:\KULIAH-SEM6\TUBES PBD\if3111-2019-yeay-Android\app\src\main\AndroidManifest.xml:2:11-69
 application
-ADDED from D:\KULIAH-SEM6\TUBES PBD\Android\app\src\main\AndroidManifest.xml:5:5-19:19
+ADDED from D:\KULIAH-SEM6\TUBES PBD\if3111-2019-yeay-Android\app\src\main\AndroidManifest.xml:5:5-19:19
 MERGED from [com.android.support:design:28.0.0] C:\Users\Haifa\.gradle\caches\transforms-1\files-1.1\design-28.0.0.aar\8e8a55b804a79294e9287efce655a0ae\AndroidManifest.xml:22:5-20
 MERGED from [com.android.support:design:28.0.0] C:\Users\Haifa\.gradle\caches\transforms-1\files-1.1\design-28.0.0.aar\8e8a55b804a79294e9287efce655a0ae\AndroidManifest.xml:22:5-20
 MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Haifa\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\debe101c8b9c58dd589a9014a1aed0fc\AndroidManifest.xml:9:5-20
 MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Haifa\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\debe101c8b9c58dd589a9014a1aed0fc\AndroidManifest.xml:9:5-20
+MERGED from [com.google.android.gms:play-services-location:16.0.0] C:\Users\Haifa\.gradle\caches\transforms-1\files-1.1\play-services-location-16.0.0.aar\7226dc9ad5339f5e1d20fc1fcf09057d\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-location:16.0.0] C:\Users\Haifa\.gradle\caches\transforms-1\files-1.1\play-services-location-16.0.0.aar\7226dc9ad5339f5e1d20fc1fcf09057d\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\Haifa\.gradle\caches\transforms-1\files-1.1\play-services-base-16.0.1.aar\5b00da872a31ff58c919a27fc7c7d3a7\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\Haifa\.gradle\caches\transforms-1\files-1.1\play-services-base-16.0.1.aar\5b00da872a31ff58c919a27fc7c7d3a7\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] C:\Users\Haifa\.gradle\caches\transforms-1\files-1.1\play-services-places-placereport-16.0.0.aar\2bab2da5d9dadcd9cb8f4e03e6d7660f\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] C:\Users\Haifa\.gradle\caches\transforms-1\files-1.1\play-services-places-placereport-16.0.0.aar\2bab2da5d9dadcd9cb8f4e03e6d7660f\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\Haifa\.gradle\caches\transforms-1\files-1.1\play-services-tasks-16.0.1.aar\34fc98e351415f162ba7d9355cd8aa14\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\Haifa\.gradle\caches\transforms-1\files-1.1\play-services-tasks-16.0.1.aar\34fc98e351415f162ba7d9355cd8aa14\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\Haifa\.gradle\caches\transforms-1\files-1.1\play-services-basement-16.0.1.aar\528f185e17e9732da9672641d0ac4eb0\AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\Haifa\.gradle\caches\transforms-1\files-1.1\play-services-basement-16.0.1.aar\528f185e17e9732da9672641d0ac4eb0\AndroidManifest.xml:22:5-26:19
+MERGED from [com.github.bumptech.glide:glide:4.9.0] C:\Users\Haifa\.gradle\caches\transforms-1\files-1.1\glide-4.9.0.aar\29ab42fecfa08218690d09322a0fa4db\AndroidManifest.xml:10:5-20
+MERGED from [com.github.bumptech.glide:glide:4.9.0] C:\Users\Haifa\.gradle\caches\transforms-1\files-1.1\glide-4.9.0.aar\29ab42fecfa08218690d09322a0fa4db\AndroidManifest.xml:10:5-20
 MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Haifa\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\cd5b9723a7ecb21cf0dbff6a68bf742d\AndroidManifest.xml:22:5-94
 MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Haifa\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\cd5b9723a7ecb21cf0dbff6a68bf742d\AndroidManifest.xml:22:5-94
 MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Haifa\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\ce26f5f4b84af1775215b7d53456ea83\AndroidManifest.xml:22:5-23:19
 MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Haifa\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\ce26f5f4b84af1775215b7d53456ea83\AndroidManifest.xml:22:5-23:19
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] C:\Users\Haifa\.gradle\caches\transforms-1\files-1.1\gifdecoder-4.9.0.aar\63b3ce9df9ead1a5adac5c999c90126c\AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] C:\Users\Haifa\.gradle\caches\transforms-1\files-1.1\gifdecoder-4.9.0.aar\63b3ce9df9ead1a5adac5c999c90126c\AndroidManifest.xml:9:5-20
 	android:appComponentFactory
 		ADDED from [com.android.support:support-compat:28.0.0] C:\Users\Haifa\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\cd5b9723a7ecb21cf0dbff6a68bf742d\AndroidManifest.xml:22:18-91
 	android:supportsRtl
-		ADDED from D:\KULIAH-SEM6\TUBES PBD\Android\app\src\main\AndroidManifest.xml:10:9-35
+		ADDED from D:\KULIAH-SEM6\TUBES PBD\if3111-2019-yeay-Android\app\src\main\AndroidManifest.xml:10:9-35
 	android:label
-		ADDED from D:\KULIAH-SEM6\TUBES PBD\Android\app\src\main\AndroidManifest.xml:8:9-41
+		ADDED from D:\KULIAH-SEM6\TUBES PBD\if3111-2019-yeay-Android\app\src\main\AndroidManifest.xml:8:9-41
 	android:roundIcon
-		ADDED from D:\KULIAH-SEM6\TUBES PBD\Android\app\src\main\AndroidManifest.xml:9:9-54
+		ADDED from D:\KULIAH-SEM6\TUBES PBD\if3111-2019-yeay-Android\app\src\main\AndroidManifest.xml:9:9-54
 	android:icon
-		ADDED from D:\KULIAH-SEM6\TUBES PBD\Android\app\src\main\AndroidManifest.xml:7:9-43
+		ADDED from D:\KULIAH-SEM6\TUBES PBD\if3111-2019-yeay-Android\app\src\main\AndroidManifest.xml:7:9-43
 	android:allowBackup
-		ADDED from D:\KULIAH-SEM6\TUBES PBD\Android\app\src\main\AndroidManifest.xml:6:9-35
+		ADDED from D:\KULIAH-SEM6\TUBES PBD\if3111-2019-yeay-Android\app\src\main\AndroidManifest.xml:6:9-35
 	android:theme
-		ADDED from D:\KULIAH-SEM6\TUBES PBD\Android\app\src\main\AndroidManifest.xml:11:9-40
+		ADDED from D:\KULIAH-SEM6\TUBES PBD\if3111-2019-yeay-Android\app\src\main\AndroidManifest.xml:11:9-40
 activity#com.example.catsmanager.MainActivity
-ADDED from D:\KULIAH-SEM6\TUBES PBD\Android\app\src\main\AndroidManifest.xml:12:9-18:20
+ADDED from D:\KULIAH-SEM6\TUBES PBD\if3111-2019-yeay-Android\app\src\main\AndroidManifest.xml:12:9-18:20
 	android:name
-		ADDED from D:\KULIAH-SEM6\TUBES PBD\Android\app\src\main\AndroidManifest.xml:12:19-47
+		ADDED from D:\KULIAH-SEM6\TUBES PBD\if3111-2019-yeay-Android\app\src\main\AndroidManifest.xml:12:19-47
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from D:\KULIAH-SEM6\TUBES PBD\Android\app\src\main\AndroidManifest.xml:13:13-17:29
+ADDED from D:\KULIAH-SEM6\TUBES PBD\if3111-2019-yeay-Android\app\src\main\AndroidManifest.xml:13:13-17:29
 action#android.intent.action.MAIN
-ADDED from D:\KULIAH-SEM6\TUBES PBD\Android\app\src\main\AndroidManifest.xml:14:17-69
+ADDED from D:\KULIAH-SEM6\TUBES PBD\if3111-2019-yeay-Android\app\src\main\AndroidManifest.xml:14:17-69
 	android:name
-		ADDED from D:\KULIAH-SEM6\TUBES PBD\Android\app\src\main\AndroidManifest.xml:14:25-66
+		ADDED from D:\KULIAH-SEM6\TUBES PBD\if3111-2019-yeay-Android\app\src\main\AndroidManifest.xml:14:25-66
 category#android.intent.category.LAUNCHER
-ADDED from D:\KULIAH-SEM6\TUBES PBD\Android\app\src\main\AndroidManifest.xml:16:17-77
+ADDED from D:\KULIAH-SEM6\TUBES PBD\if3111-2019-yeay-Android\app\src\main\AndroidManifest.xml:16:17-77
 	android:name
-		ADDED from D:\KULIAH-SEM6\TUBES PBD\Android\app\src\main\AndroidManifest.xml:16:27-74
+		ADDED from D:\KULIAH-SEM6\TUBES PBD\if3111-2019-yeay-Android\app\src\main\AndroidManifest.xml:16:27-74
+uses-permission#android.permission.INTERNET
+ADDED from D:\KULIAH-SEM6\TUBES PBD\if3111-2019-yeay-Android\app\src\main\AndroidManifest.xml:21:5-67
+	android:name
+		ADDED from D:\KULIAH-SEM6\TUBES PBD\if3111-2019-yeay-Android\app\src\main\AndroidManifest.xml:21:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from D:\KULIAH-SEM6\TUBES PBD\if3111-2019-yeay-Android\app\src\main\AndroidManifest.xml:22:5-79
+	android:name
+		ADDED from D:\KULIAH-SEM6\TUBES PBD\if3111-2019-yeay-Android\app\src\main\AndroidManifest.xml:22:22-76
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from D:\KULIAH-SEM6\TUBES PBD\if3111-2019-yeay-Android\app\src\main\AndroidManifest.xml:23:5-81
+	android:name
+		ADDED from D:\KULIAH-SEM6\TUBES PBD\if3111-2019-yeay-Android\app\src\main\AndroidManifest.xml:23:22-78
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from D:\KULIAH-SEM6\TUBES PBD\if3111-2019-yeay-Android\app\src\main\AndroidManifest.xml:24:5-79
+	android:name
+		ADDED from D:\KULIAH-SEM6\TUBES PBD\if3111-2019-yeay-Android\app\src\main\AndroidManifest.xml:24:22-76
 uses-sdk
-INJECTED from D:\KULIAH-SEM6\TUBES PBD\Android\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from D:\KULIAH-SEM6\TUBES PBD\Android\app\src\main\AndroidManifest.xml
-INJECTED from D:\KULIAH-SEM6\TUBES PBD\Android\app\src\main\AndroidManifest.xml
+INJECTED from D:\KULIAH-SEM6\TUBES PBD\if3111-2019-yeay-Android\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\KULIAH-SEM6\TUBES PBD\if3111-2019-yeay-Android\app\src\main\AndroidManifest.xml
+INJECTED from D:\KULIAH-SEM6\TUBES PBD\if3111-2019-yeay-Android\app\src\main\AndroidManifest.xml
 MERGED from [com.android.support:design:28.0.0] C:\Users\Haifa\.gradle\caches\transforms-1\files-1.1\design-28.0.0.aar\8e8a55b804a79294e9287efce655a0ae\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:design:28.0.0] C:\Users\Haifa\.gradle\caches\transforms-1\files-1.1\design-28.0.0.aar\8e8a55b804a79294e9287efce655a0ae\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\Haifa\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\8b5b7c960d91844a714a36663253601b\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\Haifa\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\8b5b7c960d91844a714a36663253601b\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Haifa\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\debe101c8b9c58dd589a9014a1aed0fc\AndroidManifest.xml:5:5-7:41
 MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Haifa\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\debe101c8b9c58dd589a9014a1aed0fc\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.gms:play-services-location:16.0.0] C:\Users\Haifa\.gradle\caches\transforms-1\files-1.1\play-services-location-16.0.0.aar\7226dc9ad5339f5e1d20fc1fcf09057d\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-location:16.0.0] C:\Users\Haifa\.gradle\caches\transforms-1\files-1.1\play-services-location-16.0.0.aar\7226dc9ad5339f5e1d20fc1fcf09057d\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\Haifa\.gradle\caches\transforms-1\files-1.1\play-services-base-16.0.1.aar\5b00da872a31ff58c919a27fc7c7d3a7\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\Haifa\.gradle\caches\transforms-1\files-1.1\play-services-base-16.0.1.aar\5b00da872a31ff58c919a27fc7c7d3a7\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] C:\Users\Haifa\.gradle\caches\transforms-1\files-1.1\play-services-places-placereport-16.0.0.aar\2bab2da5d9dadcd9cb8f4e03e6d7660f\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] C:\Users\Haifa\.gradle\caches\transforms-1\files-1.1\play-services-places-placereport-16.0.0.aar\2bab2da5d9dadcd9cb8f4e03e6d7660f\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\Haifa\.gradle\caches\transforms-1\files-1.1\play-services-tasks-16.0.1.aar\34fc98e351415f162ba7d9355cd8aa14\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\Haifa\.gradle\caches\transforms-1\files-1.1\play-services-tasks-16.0.1.aar\34fc98e351415f162ba7d9355cd8aa14\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\Haifa\.gradle\caches\transforms-1\files-1.1\play-services-basement-16.0.1.aar\528f185e17e9732da9672641d0ac4eb0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\Haifa\.gradle\caches\transforms-1\files-1.1\play-services-basement-16.0.1.aar\528f185e17e9732da9672641d0ac4eb0\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-v4:28.0.0] C:\Users\Haifa\.gradle\caches\transforms-1\files-1.1\support-v4-28.0.0.aar\f1d6fea57cecf1bdde9fafd85a79b7f5\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-v4:28.0.0] C:\Users\Haifa\.gradle\caches\transforms-1\files-1.1\support-v4-28.0.0.aar\f1d6fea57cecf1bdde9fafd85a79b7f5\AndroidManifest.xml:20:5-44
+MERGED from [com.github.bumptech.glide:glide:4.9.0] C:\Users\Haifa\.gradle\caches\transforms-1\files-1.1\glide-4.9.0.aar\29ab42fecfa08218690d09322a0fa4db\AndroidManifest.xml:6:5-8:41
+MERGED from [com.github.bumptech.glide:glide:4.9.0] C:\Users\Haifa\.gradle\caches\transforms-1\files-1.1\glide-4.9.0.aar\29ab42fecfa08218690d09322a0fa4db\AndroidManifest.xml:6:5-8:41
 MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\Haifa\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0.aar\f2feca9f8806ec9b4eb0e1d2aae1aa69\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\Haifa\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0.aar\f2feca9f8806ec9b4eb0e1d2aae1aa69\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\Haifa\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0.aar\2540eab6e9002279d85514be23459046\AndroidManifest.xml:20:5-44
@@ -144,6 +193,8 @@ MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\Haifa\.gradle\ca
 MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\Haifa\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0.aar\ea29af5fe2a294b218ec6442d40205e2\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\Haifa\.gradle\caches\transforms-1\files-1.1\cardview-v7-28.0.0.aar\8598c52f292d272c56f3b166523c6007\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\Haifa\.gradle\caches\transforms-1\files-1.1\cardview-v7-28.0.0.aar\8598c52f292d272c56f3b166523c6007\AndroidManifest.xml:20:5-44
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] C:\Users\Haifa\.gradle\caches\transforms-1\files-1.1\gifdecoder-4.9.0.aar\63b3ce9df9ead1a5adac5c999c90126c\AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] C:\Users\Haifa\.gradle\caches\transforms-1\files-1.1\gifdecoder-4.9.0.aar\63b3ce9df9ead1a5adac5c999c90126c\AndroidManifest.xml:5:5-7:41
 MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\Haifa\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\d93f77a09ff04493e0956d4cff473fef\AndroidManifest.xml:20:5-44
 MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\Haifa\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\d93f77a09ff04493e0956d4cff473fef\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:documentfile:28.0.0] C:\Users\Haifa\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0.aar\5b8d0c2bfe1aedcdad1133060013b7b1\AndroidManifest.xml:20:5-44
@@ -162,13 +213,27 @@ MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\Haifa\.gradle\
 MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\Haifa\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\f44640ca1ceaec9805ce4879b11189d4\AndroidManifest.xml:20:5-44
 MERGED from [android.arch.core:runtime:1.1.1] C:\Users\Haifa\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\ae4bec2226da82a09939e2ee8e3c20c6\AndroidManifest.xml:20:5-44
 MERGED from [android.arch.core:runtime:1.1.1] C:\Users\Haifa\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\ae4bec2226da82a09939e2ee8e3c20c6\AndroidManifest.xml:20:5-44
-INJECTED from D:\KULIAH-SEM6\TUBES PBD\Android\app\src\main\AndroidManifest.xml
-INJECTED from D:\KULIAH-SEM6\TUBES PBD\Android\app\src\main\AndroidManifest.xml
+INJECTED from D:\KULIAH-SEM6\TUBES PBD\if3111-2019-yeay-Android\app\src\main\AndroidManifest.xml
+INJECTED from D:\KULIAH-SEM6\TUBES PBD\if3111-2019-yeay-Android\app\src\main\AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from D:\KULIAH-SEM6\TUBES PBD\Android\app\src\main\AndroidManifest.xml
-		ADDED from D:\KULIAH-SEM6\TUBES PBD\Android\app\src\main\AndroidManifest.xml
-		INJECTED from D:\KULIAH-SEM6\TUBES PBD\Android\app\src\main\AndroidManifest.xml
+		INJECTED from D:\KULIAH-SEM6\TUBES PBD\if3111-2019-yeay-Android\app\src\main\AndroidManifest.xml
+		ADDED from D:\KULIAH-SEM6\TUBES PBD\if3111-2019-yeay-Android\app\src\main\AndroidManifest.xml
+		INJECTED from D:\KULIAH-SEM6\TUBES PBD\if3111-2019-yeay-Android\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from D:\KULIAH-SEM6\TUBES PBD\Android\app\src\main\AndroidManifest.xml
-		ADDED from D:\KULIAH-SEM6\TUBES PBD\Android\app\src\main\AndroidManifest.xml
-		INJECTED from D:\KULIAH-SEM6\TUBES PBD\Android\app\src\main\AndroidManifest.xml
+		INJECTED from D:\KULIAH-SEM6\TUBES PBD\if3111-2019-yeay-Android\app\src\main\AndroidManifest.xml
+		ADDED from D:\KULIAH-SEM6\TUBES PBD\if3111-2019-yeay-Android\app\src\main\AndroidManifest.xml
+		INJECTED from D:\KULIAH-SEM6\TUBES PBD\if3111-2019-yeay-Android\app\src\main\AndroidManifest.xml
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\Haifa\.gradle\caches\transforms-1\files-1.1\play-services-base-16.0.1.aar\5b00da872a31ff58c919a27fc7c7d3a7\AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\Haifa\.gradle\caches\transforms-1\files-1.1\play-services-base-16.0.1.aar\5b00da872a31ff58c919a27fc7c7d3a7\AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\Haifa\.gradle\caches\transforms-1\files-1.1\play-services-base-16.0.1.aar\5b00da872a31ff58c919a27fc7c7d3a7\AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\Haifa\.gradle\caches\transforms-1\files-1.1\play-services-base-16.0.1.aar\5b00da872a31ff58c919a27fc7c7d3a7\AndroidManifest.xml:24:13-79
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\Haifa\.gradle\caches\transforms-1\files-1.1\play-services-basement-16.0.1.aar\528f185e17e9732da9672641d0ac4eb0\AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\Haifa\.gradle\caches\transforms-1\files-1.1\play-services-basement-16.0.1.aar\528f185e17e9732da9672641d0ac4eb0\AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\Haifa\.gradle\caches\transforms-1\files-1.1\play-services-basement-16.0.1.aar\528f185e17e9732da9672641d0ac4eb0\AndroidManifest.xml:24:13-58

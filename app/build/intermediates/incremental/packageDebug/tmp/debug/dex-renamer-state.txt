@@ -1,4 +1,4 @@
-#Sat Feb 23 02:30:33 ICT 2019
-base.0=D\:\\KULIAH-SEM6\\TUBES PBD\\Android\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\out
+#Sun Feb 24 21:08:49 ICT 2019
+base.0=D\:\\KULIAH-SEM6\\TUBES PBD\\if3111-2019-yeay-Android\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\out
 path.0=classes.dex
 renamed.0=classes.dex
