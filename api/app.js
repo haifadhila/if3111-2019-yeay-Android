@@ -7,7 +7,8 @@ Task = require('./model/task');
 User = require('./model/user');
 Cat = require('./model/cat');
 
-mongoose.connect('mongodb+srv://nadija:161998@cat-manager-kvakv.mongodb.net/test?retryWrites=true');
+mongoose.connect(
+    'mongodb://nadija:nadija16@ds157544.mlab.com:57544/cat-manager');
 var db = mongoose.connection;
 
 app.use(bodyParser.json());
@@ -19,10 +20,14 @@ app.get('/', function(req, res){
 app.get('/api/user', function(req, res){
     User.getAllUsers(function(err, users){
         if(err){
-            throw err;
+            console.log(err);
         }
-        res.json({users: users});
-        console.log("users found.")
+        else{
+            res.send({users: users});
+            console.log(JSON.stringify(users));
+            console.log("users found.");
+        }
+        
     });
 });
 

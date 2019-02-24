@@ -1,6 +1,6 @@
 var mongoose = require('mongoose');
 
-//Doctor Schema
+
 var userSchema = mongoose.Schema({
     email:{
         type: String,

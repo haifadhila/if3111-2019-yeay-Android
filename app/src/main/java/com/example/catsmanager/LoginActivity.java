@@ -312,12 +312,6 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
         updateUI(currentUser);
     }
 
-    @Override
-    public void onStop() {
-        super.onStop();
-        FirebaseAuth.getInstance().signOut();
-    }
-
     private void updateUI(FirebaseUser currentUser) {
       if (currentUser!=null) {
           Intent myIntent = new Intent(LoginActivity.this, MainActivity.class);
