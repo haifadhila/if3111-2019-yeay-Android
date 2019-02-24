@@ -1,22 +1,24 @@
 package com.example.catsmanager;
-
 import android.content.Intent;
+import android.os.Bundle;
+import android.support.design.widget.TabLayout;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
+import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.Toolbar;
-import android.support.design.widget.TabLayout;
 import android.view.View;
 import android.widget.ImageButton;
 import android.widget.ImageView;
-
-import com.google.android.gms.auth.api.signin.GoogleSignIn;
-import com.google.android.gms.auth.api.signin.GoogleSignInAccount;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
+import java.util.ArrayList;
 
 
 public class MainActivity extends AppCompatActivity {
+    // Member variables.
+    private RecyclerView mRecyclerView;
+    private ArrayList<Cat> mCatsData;
+    private CatsAdapter mAdapter;
 
     private FirebaseAuth mAuth;
 
@@ -85,4 +87,6 @@ public class MainActivity extends AppCompatActivity {
             MainActivity.this.startActivity(myIntent);
         }
     }
+
+
 }

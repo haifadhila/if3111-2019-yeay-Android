@@ -1,7 +1,0 @@
-#Internal package file, do not edit.
-#Sat Feb 23 21:18:10 ICT 2019
-0.baseType=DIRECTORY
-0.base=D\:\\Documents\\kuliah\\semester 6\\pbd\\if3111-2019-yeay-Android\\app\\build\\intermediates\\dex\\release\\mergeDexRelease\\out
-0.path=classes.dex
-0.set=DEX
-count=1
