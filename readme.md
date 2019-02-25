@@ -1,4 +1,3 @@
-# IF3111-2019-yeay-Android
 # Tugas 1 IF3111 Pengembangan Aplikasi Berbasis Platform
 ## Mobile Android : Cats Manager
 
