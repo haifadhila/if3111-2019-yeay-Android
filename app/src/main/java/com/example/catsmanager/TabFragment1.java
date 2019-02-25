@@ -62,6 +62,16 @@ public class TabFragment1 extends Fragment {
 
             }
         });
+
+
+        Button checkButton = (Button) view.findViewById(R.id.button3);
+        checkButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent myIntent = new Intent(getActivity(), LightSensor.class);
+                startActivity(myIntent);
+            }
+        });
         return view;
     }
 }

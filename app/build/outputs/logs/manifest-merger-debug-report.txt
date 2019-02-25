@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\Documents\kuliah\semester 6\pbd\if3111-2019-yeay-Android\app\src\main\AndroidManifest.xml:2:1-36:12
-INJECTED from D:\Documents\kuliah\semester 6\pbd\if3111-2019-yeay-Android\app\src\main\AndroidManifest.xml:2:1-36:12
-INJECTED from D:\Documents\kuliah\semester 6\pbd\if3111-2019-yeay-Android\app\src\main\AndroidManifest.xml:2:1-36:12
-INJECTED from D:\Documents\kuliah\semester 6\pbd\if3111-2019-yeay-Android\app\src\main\AndroidManifest.xml:2:1-36:12
+ADDED from D:\Documents\kuliah\semester 6\pbd\if3111-2019-yeay-Android\app\src\main\AndroidManifest.xml:2:1-38:12
+INJECTED from D:\Documents\kuliah\semester 6\pbd\if3111-2019-yeay-Android\app\src\main\AndroidManifest.xml:2:1-38:12
+INJECTED from D:\Documents\kuliah\semester 6\pbd\if3111-2019-yeay-Android\app\src\main\AndroidManifest.xml:2:1-38:12
+INJECTED from D:\Documents\kuliah\semester 6\pbd\if3111-2019-yeay-Android\app\src\main\AndroidManifest.xml:2:1-38:12
 MERGED from [com.android.support:design:28.0.0] C:\Users\Nadija Herdwina\.gradle\caches\transforms-2\files-2.1\a12cdba034590a477535ec06fcb48e97\AndroidManifest.xml:17:1-24:12
 MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\Nadija Herdwina\.gradle\caches\transforms-2\files-2.1\536a768eea98a887289bcacbb9b9c7d9\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Nadija Herdwina\.gradle\caches\transforms-2\files-2.1\8ff2b5a8b0f53dbfc41241b1683c8b7d\AndroidManifest.xml:2:1-11:12
@@ -51,20 +51,20 @@ MERGED from [com.android.support:interpolator:28.0.0] C:\Users\Nadija Herdwina\.
 MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\Nadija Herdwina\.gradle\caches\transforms-2\files-2.1\e71a34e07b2f404daa72b5ada81c9a09\AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\Nadija Herdwina\.gradle\caches\transforms-2\files-2.1\51709535e268a8740129c3fe3c15e85d\AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.core:runtime:1.1.1] C:\Users\Nadija Herdwina\.gradle\caches\transforms-2\files-2.1\2293649410d5b5620311d391086fe3e8\AndroidManifest.xml:17:1-22:12
-INJECTED from D:\Documents\kuliah\semester 6\pbd\if3111-2019-yeay-Android\app\src\main\AndroidManifest.xml:2:1-36:12
-INJECTED from D:\Documents\kuliah\semester 6\pbd\if3111-2019-yeay-Android\app\src\main\AndroidManifest.xml:2:1-36:12
-INJECTED from D:\Documents\kuliah\semester 6\pbd\if3111-2019-yeay-Android\app\src\main\AndroidManifest.xml:2:1-36:12
+INJECTED from D:\Documents\kuliah\semester 6\pbd\if3111-2019-yeay-Android\app\src\main\AndroidManifest.xml:2:1-38:12
+INJECTED from D:\Documents\kuliah\semester 6\pbd\if3111-2019-yeay-Android\app\src\main\AndroidManifest.xml:2:1-38:12
+INJECTED from D:\Documents\kuliah\semester 6\pbd\if3111-2019-yeay-Android\app\src\main\AndroidManifest.xml:2:1-38:12
 	package
 		ADDED from D:\Documents\kuliah\semester 6\pbd\if3111-2019-yeay-Android\app\src\main\AndroidManifest.xml:3:5-38
 		INJECTED from D:\Documents\kuliah\semester 6\pbd\if3111-2019-yeay-Android\app\src\main\AndroidManifest.xml
 		INJECTED from D:\Documents\kuliah\semester 6\pbd\if3111-2019-yeay-Android\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from D:\Documents\kuliah\semester 6\pbd\if3111-2019-yeay-Android\app\src\main\AndroidManifest.xml
-		ADDED from D:\Documents\kuliah\semester 6\pbd\if3111-2019-yeay-Android\app\src\main\AndroidManifest.xml:2:1-36:12
+		ADDED from D:\Documents\kuliah\semester 6\pbd\if3111-2019-yeay-Android\app\src\main\AndroidManifest.xml:2:1-38:12
 		INJECTED from D:\Documents\kuliah\semester 6\pbd\if3111-2019-yeay-Android\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from D:\Documents\kuliah\semester 6\pbd\if3111-2019-yeay-Android\app\src\main\AndroidManifest.xml
-		ADDED from D:\Documents\kuliah\semester 6\pbd\if3111-2019-yeay-Android\app\src\main\AndroidManifest.xml:2:1-36:12
+		ADDED from D:\Documents\kuliah\semester 6\pbd\if3111-2019-yeay-Android\app\src\main\AndroidManifest.xml:2:1-38:12
 		INJECTED from D:\Documents\kuliah\semester 6\pbd\if3111-2019-yeay-Android\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from D:\Documents\kuliah\semester 6\pbd\if3111-2019-yeay-Android\app\src\main\AndroidManifest.xml:2:11-69
@@ -87,7 +87,7 @@ ADDED from D:\Documents\kuliah\semester 6\pbd\if3111-2019-yeay-Android\app\src\m
 	android:name
 		ADDED from D:\Documents\kuliah\semester 6\pbd\if3111-2019-yeay-Android\app\src\main\AndroidManifest.xml:10:22-69
 application
-ADDED from D:\Documents\kuliah\semester 6\pbd\if3111-2019-yeay-Android\app\src\main\AndroidManifest.xml:12:5-29:19
+ADDED from D:\Documents\kuliah\semester 6\pbd\if3111-2019-yeay-Android\app\src\main\AndroidManifest.xml:12:5-31:19
 MERGED from [com.android.support:design:28.0.0] C:\Users\Nadija Herdwina\.gradle\caches\transforms-2\files-2.1\a12cdba034590a477535ec06fcb48e97\AndroidManifest.xml:22:5-20
 MERGED from [com.android.support:design:28.0.0] C:\Users\Nadija Herdwina\.gradle\caches\transforms-2\files-2.1\a12cdba034590a477535ec06fcb48e97\AndroidManifest.xml:22:5-20
 MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Nadija Herdwina\.gradle\caches\transforms-2\files-2.1\8ff2b5a8b0f53dbfc41241b1683c8b7d\AndroidManifest.xml:9:5-20
@@ -152,22 +152,30 @@ activity#com.example.catsmanager.MainActivity
 ADDED from D:\Documents\kuliah\semester 6\pbd\if3111-2019-yeay-Android\app\src\main\AndroidManifest.xml:28:9-59
 	android:name
 		ADDED from D:\Documents\kuliah\semester 6\pbd\if3111-2019-yeay-Android\app\src\main\AndroidManifest.xml:28:19-47
+activity#com.example.catsmanager.ProximityActivity
+ADDED from D:\Documents\kuliah\semester 6\pbd\if3111-2019-yeay-Android\app\src\main\AndroidManifest.xml:29:9-64
+	android:name
+		ADDED from D:\Documents\kuliah\semester 6\pbd\if3111-2019-yeay-Android\app\src\main\AndroidManifest.xml:29:19-52
+activity#com.example.catsmanager.LightSensor
+ADDED from D:\Documents\kuliah\semester 6\pbd\if3111-2019-yeay-Android\app\src\main\AndroidManifest.xml:30:9-58
+	android:name
+		ADDED from D:\Documents\kuliah\semester 6\pbd\if3111-2019-yeay-Android\app\src\main\AndroidManifest.xml:30:19-46
 uses-permission#android.permission.INTERNET
-ADDED from D:\Documents\kuliah\semester 6\pbd\if3111-2019-yeay-Android\app\src\main\AndroidManifest.xml:31:5-67
+ADDED from D:\Documents\kuliah\semester 6\pbd\if3111-2019-yeay-Android\app\src\main\AndroidManifest.xml:33:5-67
 	android:name
-		ADDED from D:\Documents\kuliah\semester 6\pbd\if3111-2019-yeay-Android\app\src\main\AndroidManifest.xml:31:22-64
+		ADDED from D:\Documents\kuliah\semester 6\pbd\if3111-2019-yeay-Android\app\src\main\AndroidManifest.xml:33:22-64
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from D:\Documents\kuliah\semester 6\pbd\if3111-2019-yeay-Android\app\src\main\AndroidManifest.xml:32:5-79
-	android:name
-		ADDED from D:\Documents\kuliah\semester 6\pbd\if3111-2019-yeay-Android\app\src\main\AndroidManifest.xml:32:22-76
-uses-permission#android.permission.ACCESS_COARSE_LOCATION
-ADDED from D:\Documents\kuliah\semester 6\pbd\if3111-2019-yeay-Android\app\src\main\AndroidManifest.xml:33:5-81
-	android:name
-		ADDED from D:\Documents\kuliah\semester 6\pbd\if3111-2019-yeay-Android\app\src\main\AndroidManifest.xml:33:22-78
-uses-permission#android.permission.ACCESS_FINE_LOCATION
 ADDED from D:\Documents\kuliah\semester 6\pbd\if3111-2019-yeay-Android\app\src\main\AndroidManifest.xml:34:5-79
 	android:name
 		ADDED from D:\Documents\kuliah\semester 6\pbd\if3111-2019-yeay-Android\app\src\main\AndroidManifest.xml:34:22-76
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from D:\Documents\kuliah\semester 6\pbd\if3111-2019-yeay-Android\app\src\main\AndroidManifest.xml:35:5-81
+	android:name
+		ADDED from D:\Documents\kuliah\semester 6\pbd\if3111-2019-yeay-Android\app\src\main\AndroidManifest.xml:35:22-78
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from D:\Documents\kuliah\semester 6\pbd\if3111-2019-yeay-Android\app\src\main\AndroidManifest.xml:36:5-79
+	android:name
+		ADDED from D:\Documents\kuliah\semester 6\pbd\if3111-2019-yeay-Android\app\src\main\AndroidManifest.xml:36:22-76
 uses-sdk
 INJECTED from D:\Documents\kuliah\semester 6\pbd\if3111-2019-yeay-Android\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from D:\Documents\kuliah\semester 6\pbd\if3111-2019-yeay-Android\app\src\main\AndroidManifest.xml
