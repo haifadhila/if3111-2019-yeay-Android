@@ -25,7 +25,7 @@ public class ProximityActivity extends AppCompatActivity {
     private CountDownTimer countDownTimer;
     private TextView alertText;
     private TextView timer;
-    private boolean finishTimer, justStart;
+    private boolean finishTimer, justStart, timerRuning;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -52,6 +52,7 @@ public class ProximityActivity extends AppCompatActivity {
         Log.d("proximity_focusTime", String.valueOf(focusTime));
         finishTimer=true;
         justStart=true;
+        timerRuning=false;
         alertText.setText("Put your phone down!");
         @SuppressLint("DefaultLocale") String initTime = String.format("%02d:%02d:%02d", (focusTime/1000)/3600, ((focusTime/1000)%3600)/60, ((focusTime/1000)%3600)%60);
         timer.setText(initTime);
@@ -83,6 +84,7 @@ public class ProximityActivity extends AppCompatActivity {
     }
 
     private void startTimer() {
+        timerRuning=true;
         countDownTimer = new CountDownTimer(focusTime,1000) {
             @Override
             public void onTick(long millisUntilFinished) {
@@ -112,6 +114,7 @@ public class ProximityActivity extends AppCompatActivity {
         updateTimerView();
         countDownTimer.cancel();
         finishTimer=false;
+        timerRuning=false;
         Toast.makeText(ProximityActivity.this, "You failed!",
                 Toast.LENGTH_LONG).show();
         Intent myIntent = new Intent(ProximityActivity.this, MainActivity.class);
@@ -136,16 +139,17 @@ public class ProximityActivity extends AppCompatActivity {
     @Override
     protected void onPause() {
         super.onPause();
-        countDownTimer.cancel();
         sensorManager.unregisterListener(proximitySensorListener);
     }
     @Override
     protected void onStop() {
         super.onStop();
-        focusTime = 0;
-        finishTimer=false;
-        Toast.makeText(ProximityActivity.this, "You failed!",
-                Toast.LENGTH_LONG).show();
-        countDownTimer.cancel();
+        if (timerRuning) {
+            focusTime = 0;
+            finishTimer=false;
+            Toast.makeText(ProximityActivity.this, "You failed!",
+                    Toast.LENGTH_LONG).show();
+            countDownTimer.cancel();
+        }
     }
 }

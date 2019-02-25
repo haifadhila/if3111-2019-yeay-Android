@@ -26,6 +26,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".MainActivity"></activity>
+        <activity android:name=".ProximityActivity"></activity>
+        <activity android:name=".LightSensor"></activity>
     </application>
 
     <uses-permission android:name="android.permission.INTERNET" />
