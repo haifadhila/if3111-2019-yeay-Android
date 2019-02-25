@@ -20,6 +20,7 @@
         android:layout_gravity="bottom|end"
         android:layout_margin="16dp"
         android:clickable="true"
-        android:src="@drawable/ic_my_icon1" />
+        android:src="@drawable/ic_my_icon1"
+        android:focusable="true" />
 
 </FrameLayout>

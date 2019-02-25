@@ -50,9 +50,9 @@ public class TabFragment2 extends Fragment {
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                    Log.d("Test", "Intent Called");
                     Intent openAddPage = new Intent(getActivity(),AddTask.class);
                     startActivity(openAddPage);
-                    Log.d("Test", "Intent Called");
             }
 //                int wordListSize = mWordList.size();
 //                // Add a new word to the wordList.
