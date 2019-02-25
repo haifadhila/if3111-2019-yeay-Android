@@ -1,0 +1,104 @@
+<resources>
+    <string name="app_name">CatManager!</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="tab_label1">Focus</string>
+    <string name="tab_label2">My Tasks</string>
+    <string name="tab_label3">My Cats</string>
+    <string name="catmanager">C a t M a n a g e r !</string>
+    <string name="header_fragment1">Pick your time!</string>
+    <string-array name="times">
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>45 minutes</item>
+        <item>1 hour</item>
+    </string-array>
+
+    <string name="title_placeholder">Title</string>
+    <string name="cats_dates_placeholder">27/01/19</string>
+    <string name="cats_info_placeholder">1 hour</string>
+
+    <string-array name="cats_titles">
+        <item>Cute Little Persian</item>
+        <item>Flawless White Persian</item>
+        <item>The Wise Guy</item>
+        <item>Little Striped Guy</item>
+        <item>Cheerful Baby</item>
+        <item>Strong Tabby</item>
+        <item>Pretty Tabby</item>
+        <item>The Real Slim Tabby</item>
+        <item>Sparkle-Eyed</item>
+    </string-array>
+
+    <string-array name="cats_dates">
+        <item>27/09/18</item>
+        <item>06/11/18</item>
+        <item>15/12/18</item>
+        <item>01/01/19</item>
+        <item>13/01/19</item>
+        <item>29/01/19</item>
+        <item>05/02/19</item>
+        <item>11/02/19</item>
+        <item>24/02/19</item>
+    </string-array>
+	
+	<string name="enter_task_name">Enter task name:</string>
+    <string name="enter_date">Enter date:</string>
+    <string name="button_addtask">Submit</string>
+
+    <string-array name="cats_info">
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>45 minutes</item>
+        <item>1 hour</item>
+        <item>1 hour</item>
+        <item>45 minutes</item>
+        <item>15 minutes</item>
+        <item>15 minutes</item>
+        <item>2 hours</item>
+    </string-array>
+
+    <string name="title_activity_login">Sign in</string>
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="sign_in">Sign in</string>
+    <string name="incorrect_pass_email">Incorrect password or e-mail.</string>
+    <string name="check_environment">Check your learning environment!</string>
+    <string name="sound_intensity">Environment Noise</string>
+    <string name="sound_result">It\'s perfectly quiet to be focused.</string>
+    <string name="environment_temperature">Environment Temperature</string>
+    <string name="light_intensity_title">Light Environment Intensity</string>
+    <string name="temp_message">Not too cold and not too hot. Cozy!</string>
+    <string name="light_message">Perfect lighting for your focused eyes!</string>
+    <string name="focusstart">Start your Focus Timer to concenctrate!</string>
+    <string name="let_s_see">Let\'s See</string>
+    <string name="date">25/2/2019</string>
+    <string name="done" />
+    <string name="msg_token_fmt">Whatever</string>
+    <string name="preference_file_key">com.example.myapp.PREFERENCE_FILE_KEY</string>
+    <string name="saved_high_score_key">100</string>
+
+    <array name="cats_images">
+        <item>@drawable/cat_persian_little</item>
+        <item>@drawable/cat_persian</item>
+        <item>@drawable/cat_bapakbapak</item>
+        <item>@drawable/cat_normal_medium</item>
+        <item>@drawable/cat_normal_small</item>
+        <item>@drawable/cat_orange</item>
+        <item>@drawable/cat_orange_medium</item>
+        <item>@drawable/cat_orange_small</item>
+        <item>@drawable/cat_orange_small2</item>
+    </array>
+
+</resources>
