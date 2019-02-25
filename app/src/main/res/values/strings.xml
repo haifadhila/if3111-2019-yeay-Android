@@ -74,6 +74,15 @@
     </string>
     <string name="sign_in">Sign in</string>
     <string name="incorrect_pass_email">Incorrect password or e-mail.</string>
+    <string name="check_environment">Check your learning environment!</string>
+    <string name="sound_intensity">Environment Noise</string>
+    <string name="sound_result">It\'s perfectly quiet to be focused.</string>
+    <string name="environment_temperature">Environment Temperature</string>
+    <string name="light_intensity_title">Light Environment Intensity</string>
+    <string name="temp_message">Not too cold and not too hot. Cozy!</string>
+    <string name="light_message">Perfect lighting for your focused eyes!</string>
+    <string name="focusstart">Start your Focus Timer to concenctrate!</string>
+    <string name="let_s_see">Let\'s See</string>
 
     <array name="cats_images">
         <item>@drawable/cat_persian_little</item>

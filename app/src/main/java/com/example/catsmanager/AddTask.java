@@ -18,6 +18,7 @@ public class AddTask extends AppCompatActivity {
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view){
+                // Tambahin ke database
                 finish();
             }
         });

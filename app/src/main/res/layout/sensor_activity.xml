@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="30dp" >
+
+    <TextView
+        android:id="@+id/light_title"
+        android:layout_width="323dp"
+        android:layout_height="wrap_content"
+        android:text="@string/light_intensity_title"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:visibility="visible" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:text="@string/light_message" />
+
+    <TextView
+        android:id="@+id/temp"
+        android:layout_width="265dp"
+        android:layout_height="wrap_content"
+        android:text="@string/environment_temperature"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:visibility="visible" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/temp_message"
+        android:padding="20dp" />
+
+    <TextView
+        android:id="@+id/sound"
+        android:layout_width="309dp"
+        android:layout_height="wrap_content"
+        android:text="@string/sound_intensity"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:visibility="visible" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/sound_result"
+        android:padding="20dp" />
+
+</LinearLayout>
