@@ -13,6 +13,7 @@
         <item>30 minutes</item>
         <item>45 minutes</item>
         <item>1 hour</item>
+        <item>2 hours</item>
     </string-array>
 
     <string name="title_placeholder">Title</string>

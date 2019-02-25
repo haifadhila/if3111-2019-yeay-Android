@@ -41,6 +41,7 @@
             </intent-filter>
         </activity>
         <activity android:name="com.example.catsmanager.MainActivity" />
+        <activity android:name="com.example.catsmanager.ProximityActivity" />
         <activity
             android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
             android:excludeFromRecents="true"
