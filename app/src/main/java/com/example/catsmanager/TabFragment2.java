@@ -14,11 +14,16 @@ import android.view.ViewGroup;
 
 import java.util.LinkedList;
 
+import static android.app.Activity.RESULT_OK;
+
 
 /**
  * A simple {@link Fragment} subclass.
  */
 public class TabFragment2 extends Fragment {
+
+    int highScore;
+
     public TabFragment2() {
         // Required empty public constructor
     }
@@ -31,9 +36,6 @@ public class TabFragment2 extends Fragment {
                              Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         //Put initial data into the word list.
-        for (int i = 0; i < 20; i++) {
-           mWordList.addLast("Word " + i);
-       }
 
         View view = inflater.inflate(R.layout.tab_fragment2, container, false);
         // Create recycler view.
@@ -50,9 +52,9 @@ public class TabFragment2 extends Fragment {
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                    Log.d("Test", "Intent Called");
-                    Intent openAddPage = new Intent(getActivity(),AddTask.class);
-                    startActivity(openAddPage);
+                Log.d("Test", "Intent Called");
+                Intent openAddPage = new Intent(getActivity(),AddTask.class);
+                startActivityForResult(openAddPage,1);
             }
 //                int wordListSize = mWordList.size();
 //                // Add a new word to the wordList.
@@ -67,5 +69,16 @@ public class TabFragment2 extends Fragment {
 
         });
         return view;
+    }
+
+    public void onActivityResult(int requestCode, int resultCode, Intent data) {
+        super.onActivityResult(requestCode, resultCode, data);
+        if (requestCode == 1) {
+            if(resultCode == RESULT_OK) {
+                String taskName = data.getStringExtra("taskName");
+                String taskDate = data.getStringExtra("taskDate");
+                mWordList.addLast(taskName+" - "+taskDate);
+            }
+        }
     }
 }

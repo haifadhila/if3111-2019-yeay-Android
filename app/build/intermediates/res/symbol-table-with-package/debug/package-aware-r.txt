@@ -1147,6 +1147,7 @@ id center
 id center_horizontal
 id center_vertical
 id chains
+id checkBox
 id check_env
 id checkbox
 id chronometer
@@ -1160,6 +1161,7 @@ id coordinator
 id custom
 id customPanel
 id dark
+id datePicker1
 id decor_content_parent
 id default_activity_button
 id design_bottom_sheet
@@ -1203,6 +1205,7 @@ id ifRoom
 id image
 id imageView5
 id info
+id intentButton
 id invisible
 id italic
 id item_touch_helper_previous_elevation
@@ -1215,7 +1218,7 @@ id line1
 id line3
 id listMode
 id list_item
-id location_edittext
+id location1
 id login_form
 id login_progress
 id masked
@@ -1396,6 +1399,8 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout activity_catfound
+layout activity_getcat
 layout activity_login
 layout activity_main
 layout activity_proximity
@@ -1437,6 +1442,7 @@ layout select_dialog_item_material
 layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
 layout sensor_activity
+layout strings
 layout support_simple_spinner_dropdown_item
 layout tab_fragment1
 layout tab_fragment2
@@ -1514,6 +1520,7 @@ string common_open_on_phone
 string common_signin_button_text
 string common_signin_button_text_long
 string default_web_client_id
+string done
 string enter_date
 string enter_task_name
 string environment_temperature

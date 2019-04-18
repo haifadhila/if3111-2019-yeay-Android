@@ -6,7 +6,9 @@ import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.Toolbar;
+import android.util.Log;
 import android.view.View;
+import android.widget.CheckBox;
 import android.widget.ImageButton;
 import android.widget.ImageView;
 import com.google.firebase.auth.FirebaseAuth;
@@ -86,6 +88,16 @@ public class MainActivity extends AppCompatActivity {
             Intent myIntent = new Intent(MainActivity.this, LoginActivity.class);
             MainActivity.this.startActivity(myIntent);
         }
+    }
+
+    public void checkedBox(View view) {
+        CheckBox check = (CheckBox) findViewById(R.id.checkBox);
+        if (check.isChecked())
+            check.setText("Done!");
+        else{
+            check.setText("");
+        }
+        Log.d("HEHE", "checkedBox: CHECKEDDDD");
     }
 
 

@@ -1,6 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
-    android:layout_height="match_parent">
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
 
-</android.support.constraint.ConstraintLayout>
+    <TextView
+        android:id="@+id/location1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Congratulations, you've got the cat here!"
+        android:textSize="23sp"
+        android:layout_above="@id/intentButton"
+        android:layout_centerVertical="true"
+        android:textAlignment="center"
+        android:layout_marginBottom="10dp"/>
+
+
+    <Button
+        android:id="@+id/intentButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="See Where"
+        android:layout_centerVertical="true"
+        android:background="?attr/colorPrimary"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"/>
+
+</RelativeLayout>

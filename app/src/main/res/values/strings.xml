@@ -9,6 +9,7 @@
     <string name="catmanager">C a t M a n a g e r !</string>
     <string name="header_fragment1">Pick your time!</string>
     <string-array name="times">
+        <item>1 minutes</item>
         <item>15 minutes</item>
         <item>30 minutes</item>
         <item>45 minutes</item>
@@ -84,6 +85,7 @@
     <string name="light_message">Perfect lighting for your focused eyes!</string>
     <string name="focusstart">Start your Focus Timer to concenctrate!</string>
     <string name="let_s_see">Let\'s See</string>
+    <string name="done">Done</string>
 
     <array name="cats_images">
         <item>@drawable/cat_persian_little</item>

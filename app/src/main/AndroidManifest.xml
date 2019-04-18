@@ -28,6 +28,8 @@
         <activity android:name=".MainActivity"></activity>
         <activity android:name=".ProximityActivity"></activity>
         <activity android:name=".LightSensor"></activity>
+        <activity android:name=".AddTask"></activity>
+        <activity android:name=".GetCatActivity"></activity>
     </application>
 
     <uses-permission android:name="android.permission.INTERNET" />

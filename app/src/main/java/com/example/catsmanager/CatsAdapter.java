@@ -5,6 +5,7 @@ import android.content.Context;
 import android.content.Intent;
 import android.net.Uri;
 import android.support.v7.widget.RecyclerView;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -14,16 +15,25 @@ import android.widget.TextView;
 import com.bumptech.glide.Glide;
 
 import java.util.ArrayList;
-
+import org.json.JSONArray;
+import org.json.JSONException;
+import org.json.JSONObject;
+import com.android.volley.Request;
+import com.android.volley.RequestQueue;
+import com.android.volley.Response;
+import com.android.volley.VolleyError;
+import com.android.volley.toolbox.JsonObjectRequest;
 /***
  * The adapter class for the RecyclerView, contains the Cats data.
  */
 class CatsAdapter extends RecyclerView.Adapter<CatsAdapter.ViewHolder>  {
 
     // Member variables.
-    private ArrayList<Cat> mCatsData;
+    private ArrayList<Cat> mCatsData = new ArrayList<>();
     private Context mContext;
     private ImageView mCatsImage;
+    private static final String TAG = "CatDatabase:";
+    private RequestQueue mQueue;
 
     /**
      * Constructor that passes in the Cats data and the context.
@@ -128,4 +138,8 @@ class CatsAdapter extends RecyclerView.Adapter<CatsAdapter.ViewHolder>  {
             mContext.startActivity(mapIntent);
         }
     }
+
+//    private void jsonParse(){
+//
+//    }
 }

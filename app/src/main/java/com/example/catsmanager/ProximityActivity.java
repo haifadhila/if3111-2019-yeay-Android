@@ -37,8 +37,10 @@ public class ProximityActivity extends AppCompatActivity {
 
         String timeValue= getIntent().getStringExtra("timeValue");
         Integer time = 0;
-        if (timeValue.equals("15 minutes")) {
+        if (timeValue.equals("1 minutes")) {
             time = 1;
+        } else if (timeValue.equals("15 minutes")) {
+            time = 15;
         } else if (timeValue.equals("30 minutes")) {
             time = 30;
         } else if (timeValue.equals("45 minutes")) {
@@ -97,7 +99,7 @@ public class ProximityActivity extends AppCompatActivity {
             public void onFinish() {
                 if (finishTimer) {
                     alertText.setText("Done!");
-                    Intent myIntent = new Intent(ProximityActivity.this, MainActivity.class);
+                    Intent myIntent = new Intent(ProximityActivity.this, GetCatActivity.class);
                     ProximityActivity.this.startActivity(myIntent);
                 } else {
                     Intent myIntent = new Intent(ProximityActivity.this, MainActivity.class);
@@ -115,8 +117,10 @@ public class ProximityActivity extends AppCompatActivity {
         countDownTimer.cancel();
         finishTimer=false;
         timerRuning=false;
-        Toast.makeText(ProximityActivity.this, "You failed!",
-                Toast.LENGTH_LONG).show();
+        if (!finishTimer) {
+            Toast.makeText(ProximityActivity.this, "You failed!",
+                    Toast.LENGTH_LONG).show();
+        }
         Intent myIntent = new Intent(ProximityActivity.this, MainActivity.class);
         ProximityActivity.this.startActivity(myIntent);
     }
@@ -147,8 +151,6 @@ public class ProximityActivity extends AppCompatActivity {
         if (timerRuning) {
             focusTime = 0;
             finishTimer=false;
-            Toast.makeText(ProximityActivity.this, "You failed!",
-                    Toast.LENGTH_LONG).show();
             countDownTimer.cancel();
         }
     }

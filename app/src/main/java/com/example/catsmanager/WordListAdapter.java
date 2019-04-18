@@ -19,6 +19,7 @@ public class WordListAdapter extends
     class WordViewHolder extends RecyclerView.ViewHolder implements View.OnClickListener
     {
         public final TextView wordItemView;
+
         final WordListAdapter mAdapter;
             public WordViewHolder(View itemView, WordListAdapter adapter) {
                 super(itemView);
@@ -30,7 +31,6 @@ public class WordListAdapter extends
         public void onClick(View v) {
             int mPosition = getLayoutPosition();
             String element = mWordList.get(mPosition);
-            mWordList.set(mPosition, "Clicked! " + element);
             mAdapter.notifyDataSetChanged();
         }
     }

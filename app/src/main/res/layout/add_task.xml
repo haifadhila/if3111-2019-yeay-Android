@@ -26,17 +26,17 @@
         android:layout_height="wrap_content"
         android:text="@string/enter_date"/>
 
-    <EditText
-        android:id="@+id/location_edittext"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:inputType="date" />
+    <DatePicker
+        android:id="@+id/datePicker1"
+        android:layout_width="wrap_content"
+        android:layout_height="137dp"
+        android:calendarViewShown="false"
+        android:datePickerMode="spinner" />
 
     <Button
         android:id="@+id/button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/button_addtask" />
-
 </LinearLayout>
 
