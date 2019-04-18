@@ -22,13 +22,13 @@ import static android.app.Activity.RESULT_OK;
  */
 public class TabFragment2 extends Fragment {
 
-    int highScore;
+    String value;
+//    ArrayList<String> mOrderList = new ArrayList<String>();
 
     public TabFragment2() {
         // Required empty public constructor
     }
-    private final LinkedList<String> mWordList = new LinkedList<>();
-    private int mCount = 0;
+    private LinkedList<String> mWordList = new LinkedList<>();
     private RecyclerView mRecyclerView;
     private WordListAdapter mAdapter;
     @Override
@@ -36,7 +36,7 @@ public class TabFragment2 extends Fragment {
                              Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         //Put initial data into the word list.
-
+        mWordList= Preferences.getArrayPrefs("WordList",getContext());
         View view = inflater.inflate(R.layout.tab_fragment2, container, false);
         // Create recycler view.
         mRecyclerView = (RecyclerView) view.findViewById(R.id.recyclerview);
@@ -68,6 +68,7 @@ public class TabFragment2 extends Fragment {
 //                mRecyclerView.smoothScrollToPosition(wordListSize);
 
         });
+
         return view;
     }
 
@@ -78,6 +79,7 @@ public class TabFragment2 extends Fragment {
                 String taskName = data.getStringExtra("taskName");
                 String taskDate = data.getStringExtra("taskDate");
                 mWordList.addLast(taskName+" - "+taskDate);
+                Preferences.setArrayPrefs("WordList",mWordList,getContext());
             }
         }
     }

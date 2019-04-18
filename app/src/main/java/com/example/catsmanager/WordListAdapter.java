@@ -1,6 +1,8 @@
 package com.example.catsmanager;
 
+import android.app.AlertDialog;
 import android.content.Context;
+import android.content.DialogInterface;
 import android.support.annotation.NonNull;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
@@ -8,13 +10,14 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
+import android.widget.Toast;
 import java.util.LinkedList;
 
 public class WordListAdapter extends
         RecyclerView.Adapter<WordListAdapter.WordViewHolder>  {
-    private final LinkedList<String> mWordList;
+    private LinkedList<String> mWordList;
     private LayoutInflater mInflater;
-
+    private static Context context = null;
 
     class WordViewHolder extends RecyclerView.ViewHolder implements View.OnClickListener
     {
@@ -29,8 +32,32 @@ public class WordListAdapter extends
             }
         @Override
         public void onClick(View v) {
-            int mPosition = getLayoutPosition();
+            context = v.getContext();
+            final int mPosition = getLayoutPosition();
             String element = mWordList.get(mPosition);
+
+            AlertDialog.Builder alert = new AlertDialog.Builder(context);
+            alert.setTitle("Is it done yet?");
+            // alert.setMessage("Message");
+
+            alert.setPositiveButton("YES", new DialogInterface.OnClickListener() {
+                public void onClick(DialogInterface dialog, int whichButton) {
+                    mWordList.remove(mPosition);
+                    Preferences.setArrayPrefs("WordList",mWordList,context);
+                    Toast toast=Toast.makeText(context,"This task has been removed",Toast.LENGTH_SHORT);
+                    toast.show();
+                }
+            });
+
+            alert.setNegativeButton("NO",
+                new DialogInterface.OnClickListener() {
+                    public void onClick(DialogInterface dialog, int whichButton) {
+                        Toast toast=Toast.makeText(context,"Get it done fast!",Toast.LENGTH_SHORT);
+                        toast.show();
+                    }
+                });
+
+            alert.show();
             mAdapter.notifyDataSetChanged();
         }
     }

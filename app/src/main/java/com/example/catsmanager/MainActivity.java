@@ -90,15 +90,4 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
-    public void checkedBox(View view) {
-        CheckBox check = (CheckBox) findViewById(R.id.checkBox);
-        if (check.isChecked())
-            check.setText("Done!");
-        else{
-            check.setText("");
-        }
-        Log.d("HEHE", "checkedBox: CHECKEDDDD");
-    }
-
-
 }
