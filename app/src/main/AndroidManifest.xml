@@ -4,6 +4,7 @@
 
     <uses-feature android:name="android.hardware.sensor.proximity"
         android:required="true"/>
+
     <!-- To auto-complete the email text field in the login form with the user's emails -->
     <uses-permission android:name="android.permission.GET_ACCOUNTS" />
     <uses-permission android:name="android.permission.READ_PROFILE" />
@@ -29,10 +30,25 @@
         <activity android:name=".ProximityActivity"></activity>
         <activity android:name=".LightSensor"></activity>
         <activity android:name=".AddTask"></activity>
-        <activity android:name=".GetCatActivity"></activity>
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_icon"
+            android:resource="@drawable/ic_stat_ic_notification" />
+        <!-- Set color used with incoming notification messages. This is used when no color is set for the incoming
+             notification message. See README(https://goo.gl/6BKBk7) for more. -->
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_color"
+            android:resource="@color/colorAccent" />
+        <service
+            android:name=".java.MyFirebaseMessagingService"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.example.catsmanager.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
     </application>
 
-    <uses-permission android:name="android.permission.INTERNET" />
+      <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
