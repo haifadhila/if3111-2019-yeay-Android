@@ -13,32 +13,25 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.bumptech.glide.Glide;
+import com.google.firebase.database.DatabaseReference;
 
 import java.util.ArrayList;
-import org.json.JSONArray;
-import org.json.JSONException;
-import org.json.JSONObject;
-import com.android.volley.Request;
-import com.android.volley.RequestQueue;
-import com.android.volley.Response;
-import com.android.volley.VolleyError;
-import com.android.volley.toolbox.JsonObjectRequest;
 /***
  * The adapter class for the RecyclerView, contains the Cats data.
  */
 class CatsAdapter extends RecyclerView.Adapter<CatsAdapter.ViewHolder>  {
 
     // Member variables.
-    private ArrayList<Cat> mCatsData = new ArrayList<>();
+    private ArrayList<CatData> mCatsData = new ArrayList<>();
     private Context mContext;
     private ImageView mCatsImage;
+    private DatabaseReference mDatabase;
     private static final String TAG = "CatDatabase:";
-    private RequestQueue mQueue;
 
     /**
      * Constructor that passes in the Cats data and the context.
      */
-    CatsAdapter(Context context, ArrayList<Cat> catsData) {
+    CatsAdapter(Context context, ArrayList<CatData> catsData) {
         this.mCatsData = catsData;
         this.mContext = context;
     }
@@ -69,7 +62,7 @@ class CatsAdapter extends RecyclerView.Adapter<CatsAdapter.ViewHolder>  {
     public void onBindViewHolder(CatsAdapter.ViewHolder holder,
                                  int position) {
         // Get current Cat.
-        Cat currentCat = mCatsData.get(position);
+        CatData currentCat = mCatsData.get(position);
 
         // Populate the textviews with data.
         holder.bindTo(currentCat);
@@ -115,20 +108,21 @@ class CatsAdapter extends RecyclerView.Adapter<CatsAdapter.ViewHolder>  {
             itemView.setOnClickListener(this);
         }
 
-        void bindTo(Cat currentCat){
+        void bindTo(CatData currentCat){
             // Populate the textviews with data.
-            mTitleText.setText(currentCat.getTitle());
-            mInfoText.setText(currentCat.getInfo());
-            mDateText.setText(currentCat.getDateAcquired());
-            Glide.with(mContext).load(currentCat.getImageResource()).into(mCatsImage);
+//            mTitleText.setText(currentCat.getTitle());
+            Log.d("STRINGFOCUSTIME", String.valueOf(currentCat.getFocustime().intValue()));
+            mInfoText.setText(String.valueOf(currentCat.getFocustime().intValue()));
+            mDateText.setText(currentCat.getDate());
+            Glide.with(mContext).load(currentCat.getPic()).into(mCatsImage);
         }
 
         @Override
         public void onClick(View v) {
-            Cat currentCat = mCatsData.get(getAdapterPosition());
+            CatData currentCat = mCatsData.get(getAdapterPosition());
             // Create a Uri from an intent string. Use the result to create an Intent.
             Uri gmmIntentUri = Uri.parse("geo:0,0?q="+currentCat.getLatitude()
-                    +","+currentCat.getLongitude()+"(You found the "+currentCat.getTitle()+" Cat here!)");
+                    +","+currentCat.getLongitude()+"(You found the "+currentCat.getPic()+" Cat here!)");
             // Create an Intent from gmmIntentUri. Set the action to ACTION_VIEW
             Intent mapIntent = new Intent(Intent.ACTION_VIEW, gmmIntentUri);
             // Make the Intent explicit by setting the Google Maps package

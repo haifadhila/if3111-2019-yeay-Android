@@ -12,8 +12,6 @@ import android.os.CountDownTimer;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.View;
-import android.widget.Button;
-import android.widget.Spinner;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -22,6 +20,7 @@ public class ProximityActivity extends AppCompatActivity {
     private Sensor proximitySensor;
     private SensorEventListener proximitySensorListener;
     private long focusTime;
+    private int time;
     private CountDownTimer countDownTimer;
     private TextView alertText;
     private TextView timer;
@@ -36,9 +35,9 @@ public class ProximityActivity extends AppCompatActivity {
         proximitySensor = sensorManager.getDefaultSensor(Sensor.TYPE_PROXIMITY);
 
         String timeValue= getIntent().getStringExtra("timeValue");
-        Integer time = 0;
+        time = 0;
         if (timeValue.equals("1 minutes")) {
-            time = 1;
+            time = 10000;
         } else if (timeValue.equals("15 minutes")) {
             time = 15;
         } else if (timeValue.equals("30 minutes")) {
@@ -50,7 +49,7 @@ public class ProximityActivity extends AppCompatActivity {
         } else if (timeValue.equals("2 hours")) {
             time = 120;
         }
-        focusTime= time*60*1000;
+//        focusTime= time*60*1000;
         Log.d("proximity_focusTime", String.valueOf(focusTime));
         finishTimer=true;
         justStart=true;
@@ -99,7 +98,9 @@ public class ProximityActivity extends AppCompatActivity {
             public void onFinish() {
                 if (finishTimer) {
                     alertText.setText("Done!");
+                    Log.d("YAGITU", "timer finish");
                     Intent myIntent = new Intent(ProximityActivity.this, GetCatActivity.class);
+                    myIntent.putExtra("focustime", time);
                     ProximityActivity.this.startActivity(myIntent);
                 } else {
                     Intent myIntent = new Intent(ProximityActivity.this, MainActivity.class);

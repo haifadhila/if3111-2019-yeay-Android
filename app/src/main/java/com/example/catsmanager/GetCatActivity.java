@@ -1,6 +1,5 @@
 package com.example.catsmanager;
 
-
 import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.location.Location;
@@ -9,17 +8,22 @@ import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
-import android.view.LayoutInflater;
 import android.view.View;
-import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.TextView;
 
 import com.google.android.gms.location.FusedLocationProviderClient;
 import com.google.android.gms.location.LocationServices;
 import com.google.android.gms.tasks.OnSuccessListener;
+import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.auth.FirebaseUser;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
 
-import org.w3c.dom.Text;
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
+import java.util.Date;
+import java.util.Random;
 
 
 /**
@@ -28,8 +32,10 @@ import org.w3c.dom.Text;
 public class GetCatActivity extends AppCompatActivity {
 
     private FusedLocationProviderClient fusedLocationClient;
+    private DatabaseReference mDatabase;
     private Button intentButton;
     private Location loc;
+    public FirebaseAuth mAuth;
     private TextView longitudeText, latitudeText;
     @SuppressLint("MissingPermission")
     @Override
@@ -38,6 +44,7 @@ public class GetCatActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_catfound);
         intentButton = findViewById(R.id.intentButton);
+        final Intent intent = getIntent();
         fusedLocationClient = LocationServices.getFusedLocationProviderClient(this);
         fusedLocationClient.getLastLocation()
                 .addOnSuccessListener(this
@@ -50,6 +57,21 @@ public class GetCatActivity extends AppCompatActivity {
                             Log.d("YAGITU",location.toString());
 //                            longitudeText.setText("longitude: " + location.getLatitude());
 //                            latitudeText.setText("latitude: " + location.getLatitude());
+                            FirebaseUser user = mAuth.getInstance().getCurrentUser();
+                            if (user!= null) {
+                                Log.d("YAGITU", "user not null");
+                                String email = user.getEmail();
+                                Log.d("YAGITU", email);
+                                DateFormat dateFormat = new SimpleDateFormat("yyyy/mm/dd hh:mm:ss");
+                                Date date = new Date();
+                                Random rand = new Random();
+                                int i = rand.nextInt(9);
+                                LocationPosition longLat = new LocationPosition(loc.getLongitude(), loc.getLatitude());
+                                Log.d("YAGITU", "longLat created");
+                                int focustime = intent.getExtras().getInt("focustime");
+                                addToDatabase(i, dateFormat.format(date),focustime, longLat, email);
+                                Log.d("YAGITU", "added to database");
+                            }
                             intentButton.setOnClickListener(new View.OnClickListener() {
                                 @Override
                                 public void onClick(View v) {
@@ -62,7 +84,6 @@ public class GetCatActivity extends AppCompatActivity {
                         }
                     }
                 });
-
 
     }
 
@@ -78,6 +99,15 @@ public class GetCatActivity extends AppCompatActivity {
         startActivity(mapIntent);
     }
 
+    public void addToDatabase(Number pic, String date, Number focustime, LocationPosition location, String email) {
+        mDatabase = FirebaseDatabase.getInstance().getReference();
+        Log.d("database", "get instance from firebase database ok");
+        String userId = mDatabase.push().getKey();
+        Cat cat = new Cat(pic, date, focustime, location, email);
+        Log.d("database", "new cat created");
+        mDatabase.child("cat").child(userId).setValue(cat);
+        Log.d("database", "set value by cat ok");
+    }
 
 
 }
