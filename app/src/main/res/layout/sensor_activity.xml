@@ -36,7 +36,7 @@
         android:id="@+id/textView3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/temp_message"
+        android:text="Click the button to check from Arduino!"
         android:padding="20dp" />
 
     <TextView
@@ -51,7 +51,12 @@
         android:id="@+id/textView4"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/sound_result"
+        android:text="Click the button to check from Arduino!"
         android:padding="20dp" />
+    <Button
+      android:id="@+id/ardButton"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="Check from Arduino!"/>
 
 </LinearLayout>

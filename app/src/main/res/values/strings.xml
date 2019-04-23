@@ -99,4 +99,8 @@
         <item>@drawable/cat_orange_small2</item>
     </array>
 
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+
 </resources>
